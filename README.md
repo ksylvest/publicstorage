@@ -31,7 +31,7 @@ require 'publicstorage'
 sitemap = PublicStorage::Facility.sitemap
 sitemap.links.each do |link|
   url = link.loc
-  facility = ExtraSpace::Facility.fetch(url:)
+  facility = PublicStorage::Facility.fetch(url:)
 
   puts facility.text
 
