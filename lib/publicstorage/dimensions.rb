@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module PublicStorage
-  # The dimensions associated with a price.
+  # The dimensions (width + depth + sqft) of a price.
   class Dimensions
     SELECTOR = '.unit-size'
 
@@ -34,6 +34,11 @@ module PublicStorage
         "sqft=#{@sqft.inspect}"
       ]
       "#<#{self.class.name} #{props.join(' ')}>"
+    end
+
+    # @return [String] e.g. "10' × 10' (100 sqft)"
+    def text
+      "#{format('%g', @width)}' × #{format('%g', @depth)}' (#{@sqft} sqft)"
     end
 
     # @param element [Nokogiri::XML::Element]

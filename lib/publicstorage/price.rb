@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module PublicStorage
-  # A price associated with a unit.
+  # The price (id + dimensions + rate) for a facility
   class Price
     # @attribute [rw] id
     #   @return [String]
@@ -32,6 +32,11 @@ module PublicStorage
         "rates=#{@rates.inspect}"
       ]
       "#<#{self.class.name} #{props.join(' ')}>"
+    end
+
+    # @return [String] e.g. "123 | 5' × 5' (25 sqft) | $100 (street) / $90 (web)"
+    def text
+      "#{@id} | #{@dimensions.text} | #{@rates.text}"
     end
 
     # @param element [Nokogiri::XML::Element]

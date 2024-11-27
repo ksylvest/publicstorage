@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module PublicStorage
-  # A geocode associated with a facility.
+  # The geocode (latitude + longitude) of a facility.
   class Geocode
     # @attribute [rw] latitude
     #   @return [Float]
@@ -25,6 +25,11 @@ module PublicStorage
         "longitude=#{@longitude.inspect}"
       ]
       "#<#{self.class.name} #{props.join(' ')}>"
+    end
+
+    # @return [String]
+    def text
+      "#{@latitude},#{@longitude}"
     end
 
     # @param data [Hash]

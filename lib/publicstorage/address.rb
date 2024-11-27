@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module PublicStorage
-  # Represents an address associated with a facility.
+  # The address (street + city + state + zip) of a facility.
   class Address
     # @attribute [rw] street
     #   @return [String]
@@ -39,6 +39,11 @@ module PublicStorage
         "zip=#{@zip.inspect}"
       ]
       "#<#{self.class.name} #{props.join(' ')}>"
+    end
+
+    # @return [String]
+    def text
+      "#{street}, #{city}, #{state} #{zip}"
     end
 
     # @param data [Hash]
