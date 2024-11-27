@@ -12,3 +12,12 @@ RSpec/MultipleExpectations:
 RSpec/SpecFilePathFormat:
   CustomTransform:
     PublicStorage: publicstorage
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
+
+Layout/FirstHashElementIndentation:
+  EnforcedStyle: consistent
+
+Layout/FirstArrayElementIndentation:
+  EnforcedStyle: consistent

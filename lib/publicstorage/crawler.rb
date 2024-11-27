@@ -3,6 +3,8 @@
 module PublicStorage
   # Used to fetch and parse either HTML or XML via a URL.
   class Crawler
+    HOST = 'https://www.publicstorage.com'
+
     # Raised for unexpected HTTP responses.
     class FetchError < StandardError
       # @param url [String]
@@ -26,10 +28,22 @@ module PublicStorage
       new.xml(url:)
     end
 
+    # @return [HTTP::Client]
+    def connection
+      @connection ||= begin
+        config = PublicStorage.config
+
+        connection = HTTP.persistent(HOST)
+        connection = connection.headers('User-Agent' => config.user_agent) if config.user_agent
+        connection = connection.timeout(config.timeout) if config.timeout
+        connection
+      end
+    end
+
     # @param url [String]
     # @return [HTTP::Response]
     def fetch(url:)
-      response = HTTP.get(url)
+      response = connection.get(url)
       raise FetchError.new(url:, response: response.flush) unless response.status.ok?
 
       response

@@ -7,43 +7,43 @@ http_interactions:
       encoding: ASCII-8BIT
       string: ''
     headers:
+      User-Agent:
+      - publicstorage.rb/0.2.0
       Connection:
-      - close
+      - Keep-Alive
       Host:
       - www.publicstorage.com
-      User-Agent:
-      - http.rb/5.2.0
   response:
     status:
       code: 200
       message: OK
     headers:
       Date:
-      - Wed, 27 Nov 2024 00:36:13 GMT
+      - Wed, 27 Nov 2024 21:48:47 GMT
       Content-Type:
       - text/html;charset=UTF-8
       Transfer-Encoding:
       - chunked
       Connection:
-      - close
+      - keep-alive
       Set-Cookie:
-      - SiteVisit=2; Expires=Thu, 27 Nov 2025 00:36:12 GMT; Path=/; Secure; SameSite=None
-      - __cf_bm=jiTw.BwJdjFN2MBBvAXU_7zchUxnek4Rt2WhWfyRYqE-1732667773-1.0.1.1-YcIDPodPs6ahztaOvxLjoTpIhVT8zi_4t6m6bcvekYQ.SWCTAxa_QX.oZb64.5Vm2FBZ_gKR6CG6WqK_dw2H9w;
-        path=/; expires=Wed, 27-Nov-24 01:06:13 GMT; domain=.publicstorage.com; HttpOnly;
+      - SiteVisit=2; Expires=Thu, 27 Nov 2025 21:48:47 GMT; Path=/; Secure; SameSite=None
+      - __cf_bm=olNYGHJen1PdGSG_0LItzJi_8Icu9RzM.OL9pOutJS0-1732744127-1.0.1.1-Fps8_POTbrj24qHrazSymGlzw2GbKqBfV.h8mSvhUYRjFRWNnCk3vsUKgHadu8T97v4rggBlqlSiF3phMLrVfA;
+        path=/; expires=Wed, 27-Nov-24 22:18:47 GMT; domain=.publicstorage.com; HttpOnly;
         Secure; SameSite=None
       - __cq_dnt=0; Path=/; Secure; SameSite=None
       - dw_dnt=0; Path=/; Secure; SameSite=None
-      - dwac_4451755272a741d84009052251=WLFnbUxIdTPzfEHhEh172PQN6fu4IOAtzZc%3D|dw-only|||USD|false|US%2FPacific|true;
+      - dwac_4451755272a741d84009052251=Szp0sVl1aGMnRatMvpzfRWDz93HmF_zzKlQ%3D|dw-only|||USD|false|US%2FPacific|true;
         Path=/; Secure; SameSite=None
-      - dwanonymous_ae02580dac72b2cff56c471804313454=cdCUlj6Hb6q0Y5ImjCb8OuoWaS; Version=1;
+      - dwanonymous_ae02580dac72b2cff56c471804313454=ac8tY4RHMa4I9RpHFPIKJWqo0P; Version=1;
         Comment="Demandware anonymous cookie for site Sites-publicstorage-Site"; Max-Age=15552000;
-        Expires=Mon, 26 May 2025 00:36:12 GMT; Path=/; Secure; SameSite=None
-      - dwsid=dEkqboR68x2A_Yps-Gga-Nj1pPhwEmYDvhZUTHxmdY6DQQ14oRxc7QA-5ycC4pjF6wMjBYSrnUqtbY9-v7PNhA==;
+        Expires=Mon, 26 May 2025 21:48:47 GMT; Path=/; Secure; SameSite=None
+      - dwsid=w2su5xrHZix9BMHch6oHNuiirSelpfK8cBUhJrgDBe-Et91qr_CGncivlV_PI_a_nZgDAnDblmc4a1l3j-U-mA==;
         path=/; HttpOnly; Secure; SameSite=None
       - new_session=true; Path=/; Secure; SameSite=None
-      - sid=WLFnbUxIdTPzfEHhEh172PQN6fu4IOAtzZc; Path=/; Secure; SameSite=None
+      - sid=Szp0sVl1aGMnRatMvpzfRWDz93HmF_zzKlQ; Path=/; Secure; SameSite=None
       X-Dw-Request-Base-Id:
-      - WhGhWHxpRmcBAAB_
+      - WhEci7-TR2cBAAB_
       Content-Security-Policy:
       - frame-ancestors 'self' https://www.chasepaymentechhostedpay-var.com https://www.chasepaymentechhostedpay.com
       X-Content-Type-Options:
@@ -63,7 +63,7 @@ http_interactions:
       Server:
       - cloudflare
       Cf-Ray:
-      - 8e8e0aebe9002d6c-YVR
+      - 8e95530d3b197104-YVR
       Alt-Svc:
       - h3=":443"; ma=86400
     body:
@@ -161,14 +161,14 @@ http_interactions:
         http-equiv=\"x-ua-compatible\" content=\"ie=edge\">\n\n<meta name=\"viewport\"
         content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0\"
         />\n<link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"https://images.publicstorage.com/Branding/favicon.ico\"
-        />\n\n\n\n\n\n\n\n\n\n\n    <link rel=\"preload\" fetchpriority=\"high\" href=\"/on/demandware.static/Sites-publicstorage-Site/-/default/v1732626845371/css/skin/skin.css\"
-        as=\"style\" />\n    <link rel=\"preload\" fetchpriority=\"high\" href=\"/on/demandware.static/Sites-publicstorage-Site/-/default/v1732626845371/css/property/property-landing-page.css\"
-        as=\"style\" />\n    <link rel=\"preload\" fetchpriority=\"high\" href=\"/on/demandware.static/Sites-publicstorage-Site/-/default/v1732626845371/css/global.css\"
+        />\n\n\n\n\n\n\n\n\n\n\n    <link rel=\"preload\" fetchpriority=\"high\" href=\"/on/demandware.static/Sites-publicstorage-Site/-/default/v1732729206449/css/skin/skin.css\"
+        as=\"style\" />\n    <link rel=\"preload\" fetchpriority=\"high\" href=\"/on/demandware.static/Sites-publicstorage-Site/-/default/v1732729206449/css/property/property-landing-page.css\"
+        as=\"style\" />\n    <link rel=\"preload\" fetchpriority=\"high\" href=\"/on/demandware.static/Sites-publicstorage-Site/-/default/v1732729206449/css/global.css\"
         as=\"style\" />\n    <link rel=\"preload\" fetchpriority=\"high\" loading=\"eager\"
         as=\"image\" href=\"https://images.publicstorage.com/Property/2/property-2_1.jpg?fit=contain&amp;quality=80&amp;width=800&amp;height=800\"
-        />\n\n\n<link rel=\"stylesheet\" href=\"/on/demandware.static/Sites-publicstorage-Site/-/default/v1732626845371/css/global.css\"
-        />\n\n\n    <link rel=\"stylesheet\" href=\"/on/demandware.static/Sites-publicstorage-Site/-/default/v1732626845371/css/property/property-landing-page.css\"
-        \ />\n\n\n\n\n<link rel=\"stylesheet\" href=\"/on/demandware.static/Sites-publicstorage-Site/-/default/v1732626845371/css/skin/skin.css\"
+        />\n\n\n<link rel=\"stylesheet\" href=\"/on/demandware.static/Sites-publicstorage-Site/-/default/v1732729206449/css/global.css\"
+        />\n\n\n    <link rel=\"stylesheet\" href=\"/on/demandware.static/Sites-publicstorage-Site/-/default/v1732729206449/css/property/property-landing-page.css\"
+        \ />\n\n\n\n\n<link rel=\"stylesheet\" href=\"/on/demandware.static/Sites-publicstorage-Site/-/default/v1732729206449/css/skin/skin.css\"
         />\n\n\n<link rel=\"preload\" href=\"/on/demandware.static/Sites-publicstorage-Site/-/default/dw3cc6bfbe/images/ps_logos_ps_logo.svg\"
         as=\"image\" fetchpriority=\"high\">\n\n<!-- Fonts Setup -->\n<!-- Roboto
         Font -->\n\n<link rel=\"preload\" as=\"font\" href=\"/on/demandware.static/Sites-publicstorage-Site/-/default/dwb322aec0/fonts/Roboto-Bold.woff2\"
@@ -187,10 +187,10 @@ http_interactions:
         'ITC Avant Garde';\n        src: url('/on/demandware.static/Sites-publicstorage-Site/-/default/dwece337f3/fonts/ITCAvantGardePro-Bold.woff2')
         format('woff2');\n        font-weight: bold;\n        font-style: normal;\n
         \       font-display: swap;\n    }\n</style>\n\n\n\n\n\n\n\n<script>//common/scripts.isml</script>\n<script
-        defer type=\"text/javascript\" src=\"/on/demandware.static/Sites-publicstorage-Site/-/default/v1732626845371/js/main.js\"></script>\n\n
-        \   <script defer type=\"text/javascript\" src=\"/on/demandware.static/Sites-publicstorage-Site/-/default/v1732626845371/js/map.js\"\n
+        defer type=\"text/javascript\" src=\"/on/demandware.static/Sites-publicstorage-Site/-/default/v1732729206449/js/main.js\"></script>\n\n
+        \   <script defer type=\"text/javascript\" src=\"/on/demandware.static/Sites-publicstorage-Site/-/default/v1732729206449/js/map.js\"\n
         \       \n        >\n    </script>\n\n    <script defer type=\"text/javascript\"
-        src=\"/on/demandware.static/Sites-publicstorage-Site/-/default/v1732626845371/js/propertyDetails.js\"\n
+        src=\"/on/demandware.static/Sites-publicstorage-Site/-/default/v1732729206449/js/propertyDetails.js\"\n
         \       \n        >\n    </script>\n\n\n\n\n    <title>\n        Los Angeles,
         CA, Self-Storage Units Near 6801 Santa Monica Blvd | Public Storage®\n    </title>\n\n\n<meta
         name=\"description\" content=\"Find a self-storage unit at the Public Storage
@@ -637,7 +637,7 @@ http_interactions:
         \     };\n    }\n    return null;\n  },\n};\n\n// Add an event listener for
         the DOMContentLoaded event\ndocument.addEventListener('DOMContentLoaded',
         function () {\n  // console.log('DOM is loaded');\n  initClickAnalytics();\n});\n</script>\n\n\n\n\n\n\n\n<script
-        defer src=\"/on/demandware.static/Sites-publicstorage-Site/-/default/v1732626845371/js/property/pricing.js\"></script>\n\n\n\n<link
+        defer src=\"/on/demandware.static/Sites-publicstorage-Site/-/default/v1732729206449/js/property/pricing.js\"></script>\n\n\n\n<link
         rel=\"canonical\" href=\"https://www.publicstorage.com/self-storage-ca-los-angeles/2.html\"
         />\n\n\n<script type=\"text/javascript\">//<!--\n/* <![CDATA[ (head-active_data.js)
         */\nvar dw = (window.dw || {});\ndw.ac = {\n    _analytics: null,\n    _events:
@@ -661,7 +661,7 @@ http_interactions:
         Angeles\",\"item\":\"https://www.publicstorage.com/self-storage-ca-los-angeles\"}]},{\"@context\":\"http://schema.org/\",\"@type\":\"SelfStorage\",\"@id\":\"https://www.publicstorage.com/self-storage-ca-los-angeles/2.html\",\"url\":\"https://www.publicstorage.com/self-storage-ca-los-angeles/2.html\",\"name\":\"Public
         Storage\",\"makesOffer\":{\"@type\":\"Offer\",\"name\":\"Today's Online Special
         DealFirst $1 First Month!**on select units/sizes-see mgr. For details Rent
-        Online.\"},\"telephone\":\"323-391-3958\",\"priceRange\":\"$-$$$\",\"image\":[\"https://images.publicstorage.com/Property/2/property-2_1.jpg?fit=contain&quality=80&width=800&height=800\",\"https://images.publicstorage.com/Property/2/property-2_2.jpg?fit=contain&quality=80&width=800&height=800\",\"https://images.publicstorage.com/Property/2/property-2_3.jpg?fit=contain&quality=80&width=800&height=800\",\"https://images.publicstorage.com/Property/2/property-2_4.jpg?fit=contain&quality=80&width=800&height=800\",\"https://images.publicstorage.com/Property/common/property-common_5.jpg?fit=contain&quality=80&width=800&height=800\",\"https://images.publicstorage.com/Property/common/property-common_6.jpg?fit=contain&quality=80&width=800&height=800\"],\"aggregateRating\":{\"@type\":\"AggregateRating\",\"worstRating\":1,\"bestRating\":5,\"ratingCount\":\"498\",\"ratingValue\":\"4.8\"},\"address\":{\"@type\":\"PostalAddress\",\"addressCountry\":\"US\",\"addressLocality\":\"Los
+        Online.\"},\"telephone\":\"323-391-3958\",\"priceRange\":\"$-$$$\",\"image\":[\"https://images.publicstorage.com/Property/2/property-2_1.jpg?fit=contain&quality=80&width=800&height=800\",\"https://images.publicstorage.com/Property/2/property-2_2.jpg?fit=contain&quality=80&width=800&height=800\",\"https://images.publicstorage.com/Property/2/property-2_3.jpg?fit=contain&quality=80&width=800&height=800\",\"https://images.publicstorage.com/Property/2/property-2_4.jpg?fit=contain&quality=80&width=800&height=800\",\"https://images.publicstorage.com/Property/common/property-common_5.jpg?fit=contain&quality=80&width=800&height=800\",\"https://images.publicstorage.com/Property/common/property-common_6.jpg?fit=contain&quality=80&width=800&height=800\"],\"aggregateRating\":{\"@type\":\"AggregateRating\",\"worstRating\":1,\"bestRating\":5,\"ratingCount\":\"499\",\"ratingValue\":\"4.8\"},\"address\":{\"@type\":\"PostalAddress\",\"addressCountry\":\"US\",\"addressLocality\":\"Los
         Angeles\",\"addressRegion\":\"CA\",\"postalCode\":\"90038\",\"streetAddress\":\"6801
         Santa Monica Blvdnull\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":34.09095,\"longitude\":-118.3396},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\"],\"opens\":\"09:30
         AM \",\"closes\":\" 06:00 PM\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Saturday\",\"Sunday\"],\"opens\":\"09:30
@@ -1112,7 +1112,7 @@ http_interactions:
         id=\"updateUnitSize\"\nvalue=\"null\" />\n<input type=\"hidden\" aria-hidden=\"true\"
         id=\"updateUnitLocation\"\nvalue=\"null\" />\n\n<input type=\"hidden\" class=\"impressionURL\"
         value=\"https://images.publicstorage.com/pixel\" />\n<input type=\"hidden\"
-        class=\"impressionData\" value=\"{&quot;lat&quot;:&quot;&quot;,&quot;long&quot;:&quot;&quot;,&quot;searchTerm&quot;:&quot;&quot;,&quot;siteID&quot;:&quot;2&quot;,&quot;isPLP&quot;:true,&quot;isCLP&quot;:false,&quot;fromCLP&quot;:false,&quot;impressionValue&quot;:1,&quot;isMobile&quot;:false,&quot;visitorID&quot;:&quot;abGmRVYOpjl6kzS6JS8j4rsDEq&quot;,&quot;sessionID&quot;:&quot;rLtOZzWNq7cq65JZHb8LjAztCMMwieQCTic=&quot;,&quot;url&quot;:&quot;https://images.publicstorage.com/pixel&quot;}\"
+        class=\"impressionData\" value=\"{&quot;lat&quot;:&quot;&quot;,&quot;long&quot;:&quot;&quot;,&quot;searchTerm&quot;:&quot;&quot;,&quot;siteID&quot;:&quot;2&quot;,&quot;isPLP&quot;:true,&quot;isCLP&quot;:false,&quot;fromCLP&quot;:false,&quot;impressionValue&quot;:1,&quot;isMobile&quot;:false,&quot;visitorID&quot;:&quot;bdaJsvS5iabvA9aBnJ91yR0Di9&quot;,&quot;sessionID&quot;:&quot;tCybr2Pxapa1slQP_bAOjrhj8RDsIok6lgo=&quot;,&quot;url&quot;:&quot;https://images.publicstorage.com/pixel&quot;}\"
         />\n<img alt=\"Save Impression\" class=\"d-none save-impression-img\" />\n\n<div
         class=\"container\">\n<div class=\"ps-findstorage-container ps-sticky-search-bar\">\n\n
         \   \n    <div class=\"content-asset\"><!-- dwMarker=\"content\" dwContentID=\"dd394ed1aa2e6336782a475baf\"
@@ -1172,7 +1172,7 @@ http_interactions:
         id=\"sooStoneApiMode\" />\n<input type=\"hidden\" aria-hidden=\"true\" class=\"hdnSiteID\"
         id=\"hdnSiteID\" value=\"2\" />\n<input type=\"hidden\" aria-hidden=\"true\"
         class= \"hdnMarket\" id=\"hdnMarket\" value=\"Los Angeles\" />\n<input type=\"hidden\"
-        aria-hidden=\"true\" name=\"csrf_token\" value=\"ltgYPGmIftRHWQQ-alHdAoXlSni-o0CIJCDw65_uLaWJN4ZVwJgz_02UwuSMFmpX6l00comBvprFmbDGlrSxjs9pihrsTxzXRPaOgYeBWM2l8oCkmXA99uzaOx-3wiNWkcLGON44s8Tm-Lgv8KCtgLn10knmADuPBNRwPZI8GU5DjkmUoko=\"
+        aria-hidden=\"true\" name=\"csrf_token\" value=\"4woKN5McnurK1SrZAMIAjB6YwPRtaQ2TTC0chUSimjnm6g5z2NoyQgj3slaadC2NFvI1tG3-8lMG1q1wZmrIAuwW0TUOVpzbDtYJcQNRDLKw60lfZC5kZSR0VOr356oCqtMbAztt8YaYBoSeJJeqJ-D4wMpfpkeCTybgNkpqazuh-4DPC4g=\"
         />\n<input type=\"hidden\" aria-hidden=\"true\"\nvalue=\"true\"\nid=\"enableSoostoneAPI\"
         />\n<input id=\"2-property-address1\" type=\"hidden\" aria-hidden=\"true\"
         value=\"6801 Santa Monica Blvd\" />\n\n\n\n    \n        <input type=\"hidden\"
@@ -1182,7 +1182,7 @@ http_interactions:
         - Los Angeles/Highland StaMonica&quot;,&quot;storeAddress&quot;:&quot;6801
         Santa Monica Blvd&quot;,&quot;city&quot;:&quot;Los Angeles&quot;,&quot;stateCode&quot;:&quot;CA&quot;,&quot;postalCode&quot;:&quot;90038&quot;,&quot;storePhone&quot;:&quot;323-391-3958&quot;,&quot;plpLinkLabel&quot;:&quot;See
         all available units at this property&quot;,&quot;minRateLabel&quot;:&quot;Units
-        starting from&quot;,&quot;plpLink&quot;:&quot;/self-storage-ca-los-angeles/2.html&quot;,&quot;minRate&quot;:&quot;119&quot;,&quot;directionLabel&quot;:&quot;Get
+        starting from&quot;,&quot;plpLink&quot;:&quot;/self-storage-ca-los-angeles/2.html&quot;,&quot;minRate&quot;:&quot;107&quot;,&quot;directionLabel&quot;:&quot;Get
         directions&quot;,&quot;dirLink&quot;:&quot;https://www.google.com/maps/place/6801
         Santa Monica Blvd+Los Angeles+CA+90038-1113&quot;},&quot;iconUrl&quot;:&quot;https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png&quot;,&quot;isSooStoneCookieFound&quot;:false}\"
         />\n        <input type=\"hidden\" aria-hidden=\"true\" id=\"noUnitAvailableLabel\"\n
@@ -1278,7 +1278,7 @@ http_interactions:
         \           <i class=\"ps-star\"></i>\n        \n    \n        \n            <i
         class=\"ps-star\"></i>\n        \n    \n</span>\n                    <a href=\"#PLPReviews\">\n
         \                       <span class=\"ps-base-link d-none d-lg-block d-xl-block\">\n
-        \                           498 Reviews</span>\n                    </a>\n
+        \                           499 Reviews</span>\n                    </a>\n
         \               </div>\n            \n\n            <div class=\"distance-indicator\">\n
         \               \n                    <span class=\"green-property-image\"></span>\n
         \               \n\n                \n            </div>\n\n        </div>\n\n
@@ -1420,7 +1420,7 @@ http_interactions:
         37.090240,\n                    &quot;lng&quot;: -95.712891\n                  }\n
         \               \"\n    data-map-min-zoom=\"\"\n    data-map-id=\"a2f6effd5c0bd894\"\n
         \   data-map-no-results-label=\"0 units\"\n    data-map-center-init=\"null\">\n</div>\n\n</div>\n</div>\n<div
-        class=\"plp-adminfee-message-content\" data-geolocationcode=\"null\" data-countrycode=\"FR\"
+        class=\"plp-adminfee-message-content\" data-geolocationcode=\"VA\" data-countrycode=\"US\"
         data-ca-message=\"One Time $29 Admin Fee Applies\" >\n\n    \n    <div class=\"content-asset\"><!--
         dwMarker=\"content\" dwContentID=\"afb41b2181c419ecbc81825e4d\" -->\n        <div
         class=\"promo-message-container\">\r\n<span class=\"promo-title\">Reserve
@@ -1458,12 +1458,12 @@ http_interactions:
         online-price\">\n                <div class=\"online-price-text\">\n                    Online
         only price\n                </div>\n                <div class=\"unit-price-currency\">\n
         \                   \n                        <div class=\"unit-pricing\">\n
-        \                           <span class=\"unit-price label\" data-pricebook-price=\"119.0\"\n
-        \                               data-list-price=\"158.0\" data-min-price=\"119.0\"\n
+        \                           <span class=\"unit-price label\" data-pricebook-price=\"107.0\"\n
+        \                               data-list-price=\"142.0\" data-min-price=\"107.0\"\n
         \                               data-unit-id=\"V_1348635\" data-unit-tier=\"\"
         data-storeid=\"2\">\n                                <span class=\"unit-price-currency\">\n
         \                                   $</span><span class=\"price-value\">\n
-        \                                   119</span><span\n                                    class=\"unit-per-month\">/mo</span>\n
+        \                                   107</span><span\n                                    class=\"unit-per-month\">/mo</span>\n
         \                           </span>\n                        </div>\n                        <div
         class=\"info-message unit-pricing-info\">\n                            Online
         only price\n                        </div>\n                    \n                </div>\n
@@ -1498,7 +1498,7 @@ http_interactions:
         \                       data-message-close=\"Close\"\n                        data-message-hold=\"Hold\"\n
         \                       data-message-hold-now=\"Hold Now\"\n                        data-message-continue=\"Continue\"\n
         \                       data-unit-id=\"V_1348635\" data-store-id=\"2\" data-unit-size=\"Small
-        4'x5'\"\n                        data-gtmData=\"{&quot;features&quot;:[&quot;upstairs_access_via_elevator&quot;],&quot;listprice&quot;:158,&quot;saleprice&quot;:119,&quot;minPrice&quot;:119,&quot;count&quot;:13,&quot;ptm&quot;:false,&quot;id&quot;:&quot;V_1348635&quot;,&quot;isLarge&quot;:false,&quot;isMedium&quot;:false,&quot;isSmall&quot;:true,&quot;isVehicleUnit&quot;:false,&quot;showVehicleBanner&quot;:false,&quot;isStorageUnit&quot;:true,&quot;unitSize&quot;:&quot;Small&quot;,&quot;electronicLock&quot;:false,&quot;dimension&quot;:&quot;4'x5'&quot;,&quot;name&quot;:&quot;Small
+        4'x5'\"\n                        data-gtmData=\"{&quot;features&quot;:[&quot;upstairs_access_via_elevator&quot;],&quot;listprice&quot;:142,&quot;saleprice&quot;:107,&quot;minPrice&quot;:107,&quot;count&quot;:13,&quot;ptm&quot;:false,&quot;id&quot;:&quot;V_1348635&quot;,&quot;isLarge&quot;:false,&quot;isMedium&quot;:false,&quot;isSmall&quot;:true,&quot;isVehicleUnit&quot;:false,&quot;showVehicleBanner&quot;:false,&quot;isStorageUnit&quot;:true,&quot;unitSize&quot;:&quot;Small&quot;,&quot;electronicLock&quot;:false,&quot;dimension&quot;:&quot;4'x5'&quot;,&quot;name&quot;:&quot;Small
         4'x5'&quot;,&quot;tooltip&quot;:&quot;#ps-product-tooltip-locker&quot;,&quot;filterClasses&quot;:&quot;
         IsSmall IsStorageUnit &quot;,&quot;storeId&quot;:&quot;2&quot;,&quot;stateCode&quot;:&quot;CA&quot;,&quot;SRPGroupPosition&quot;:null,&quot;SRPDisplayRank&quot;:null,&quot;ProductID&quot;:&quot;1&quot;,&quot;PLPShowUpTo&quot;:null,&quot;promotionId&quot;:&quot;132&quot;,&quot;imageDisplay&quot;:&quot;/images/promotions/Promo_$1first_month.svg&quot;,&quot;promotionName&quot;:&quot;$1
         first month rent&quot;}\"\n                        data-unitIndex=\"0\">\n
@@ -1506,16 +1506,16 @@ http_interactions:
         class=\"unit-pricing-container \n                             \n                             detail-mobile
         \n                            price-opacity-zero\">\n                                \n
         \                                   <div class=\"unit-pricing\">\n                                        <span
-        class=\"unit-price label\" data-pricebook-price=\"119.0\"\n                                            data-list-price=\"158.0\"
-        data-min-price=\"119.0\"\n                                            data-unit-id=\"V_1348635\"
+        class=\"unit-price label\" data-pricebook-price=\"107.0\"\n                                            data-list-price=\"142.0\"
+        data-min-price=\"107.0\"\n                                            data-unit-id=\"V_1348635\"
         data-unit-tier=\"\"\n                                            data-storeid=\"2\">\n
         \                                           <span class=\"unit-price-currency\">\n
         \                                               $</span><span\n                                                class=\"price-value\">\n
-        \                                               119\n                                            </span><span
+        \                                               107\n                                            </span><span
         class=\"unit-per-month\">/mo</span>\n                                        </span>\n
         \                                       <span class=\"unit-strike-through-price
         label\">\n                                            <span>\n                                                $\n
-        \                                               158</span>\n                                        </span>\n
+        \                                               142</span>\n                                        </span>\n
         \                                   </div>\n                                    <div
         class=\"info-message unit-pricing-info\">\n                                        Online
         only price\n                                    </div>\n                                \n\n\n\n
@@ -1542,7 +1542,7 @@ http_interactions:
         \           data-message-close=\"Close\"\n            data-message-hold=\"Hold\"\n
         \           data-message-hold-now=\"Hold Now\"\n            data-message-continue=\"Continue\"\n
         \           data-unit-id=\"V_1348635\" data-store-id=\"2\" data-unit-size=\"Small
-        4'x5'\"\n            data-gtmData=\"{&quot;features&quot;:[&quot;upstairs_access_via_elevator&quot;],&quot;listprice&quot;:158,&quot;saleprice&quot;:119,&quot;minPrice&quot;:119,&quot;count&quot;:13,&quot;ptm&quot;:false,&quot;id&quot;:&quot;V_1348635&quot;,&quot;isLarge&quot;:false,&quot;isMedium&quot;:false,&quot;isSmall&quot;:true,&quot;isVehicleUnit&quot;:false,&quot;showVehicleBanner&quot;:false,&quot;isStorageUnit&quot;:true,&quot;unitSize&quot;:&quot;Small&quot;,&quot;electronicLock&quot;:false,&quot;dimension&quot;:&quot;4'x5'&quot;,&quot;name&quot;:&quot;Small
+        4'x5'\"\n            data-gtmData=\"{&quot;features&quot;:[&quot;upstairs_access_via_elevator&quot;],&quot;listprice&quot;:142,&quot;saleprice&quot;:107,&quot;minPrice&quot;:107,&quot;count&quot;:13,&quot;ptm&quot;:false,&quot;id&quot;:&quot;V_1348635&quot;,&quot;isLarge&quot;:false,&quot;isMedium&quot;:false,&quot;isSmall&quot;:true,&quot;isVehicleUnit&quot;:false,&quot;showVehicleBanner&quot;:false,&quot;isStorageUnit&quot;:true,&quot;unitSize&quot;:&quot;Small&quot;,&quot;electronicLock&quot;:false,&quot;dimension&quot;:&quot;4'x5'&quot;,&quot;name&quot;:&quot;Small
         4'x5'&quot;,&quot;tooltip&quot;:&quot;#ps-product-tooltip-locker&quot;,&quot;filterClasses&quot;:&quot;
         IsSmall IsStorageUnit &quot;,&quot;storeId&quot;:&quot;2&quot;,&quot;stateCode&quot;:&quot;CA&quot;,&quot;SRPGroupPosition&quot;:null,&quot;SRPDisplayRank&quot;:null,&quot;ProductID&quot;:&quot;1&quot;,&quot;PLPShowUpTo&quot;:null,&quot;promotionId&quot;:&quot;132&quot;,&quot;imageDisplay&quot;:&quot;/images/promotions/Promo_$1first_month.svg&quot;,&quot;promotionName&quot;:&quot;$1
         first month rent&quot;}\"\n            data-unitIndex=\"0\"\n            aria-label=\"Hold
@@ -1562,7 +1562,7 @@ http_interactions:
         \   </div>\n</li>\n            \n            \n            \n    \n        \n
         \           \n                \n\n\n\n<li class=\"list-group-item mobile-unit-list-item
         unit-list-item prioritized-unit sorted-initially \n     IsSmall IsStorageUnit
-        \" data-unitid=\"V_109\" id=\"unit-V_109\">\n    <img alt=\"Save Impression\"
+        \" data-unitid=\"V_350731\" id=\"unit-V_350731\">\n    <img alt=\"Save Impression\"
         class=\"d-none save-impression-img\" />\n    <button class=\"link d-none back-to-listing\">\n
         \       <span class=\"back-chevron\"></span> <span class=\"back-to-listing-text\">\n
         \           Back to listing</span>\n    </button>\n    <input type=\"hidden\"
@@ -1583,21 +1583,25 @@ http_interactions:
         class=\"col-3 size\">\n                5&#39;x5&#39;\n\n                \n
         \                   <i class=\"icon icon-info tooltip-description\" data-target=\"#ps-product-tooltip-Size-Guide-Small-5x5\"\n
         \                       data-unit=\"Small 5'x5'\" data-url=\"/on/demandware.store/Sites-publicstorage-Site/default/Stores-SizeGuideTooltip?cid=ps-product-tooltip-Size-Guide-Small-5x5\"></i>\n
-        \               \n            </div>\n            \n                <div class=\"col-4\"></div>\n
-        \           \n\n\n            <div class=\"col-5 online-price\">\n                <div
-        class=\"online-price-text\">\n                    Online only price\n                </div>\n
-        \               <div class=\"unit-price-currency\">\n                    \n
-        \                       <div class=\"unit-pricing\">\n                            <span
-        class=\"unit-price label\" data-pricebook-price=\"119.0\"\n                                data-list-price=\"159.0\"
-        data-min-price=\"119.0\"\n                                data-unit-id=\"V_109\"
-        data-unit-tier=\"\" data-storeid=\"2\">\n                                <span
-        class=\"unit-price-currency\">\n                                    $</span><span
-        class=\"price-value\">\n                                    119</span><span\n
-        \                                   class=\"unit-per-month\">/mo</span>\n
+        \               \n            </div>\n            \n\n\n            <div class=\"col-5
+        online-price\">\n                <div class=\"online-price-text\">\n                    Online
+        only price\n                </div>\n                <div class=\"unit-price-currency\">\n
+        \                   \n                        <div class=\"unit-pricing\">\n
+        \                           <span class=\"unit-price label\" data-pricebook-price=\"122.0\"\n
+        \                               data-list-price=\"163.0\" data-min-price=\"107.0\"\n
+        \                               data-unit-id=\"V_350731\" data-unit-tier=\"\"
+        data-storeid=\"2\">\n                                <span class=\"unit-price-currency\">\n
+        \                                   $</span><span class=\"price-value\">\n
+        \                                   122</span><span\n                                    class=\"unit-per-month\">/mo</span>\n
         \                           </span>\n                        </div>\n                        <div
         class=\"info-message unit-pricing-info\">\n                            Online
         only price\n                        </div>\n                    \n                </div>\n
         \           </div>\n            <div class=\"col-4 promotion-content\">\n
+        \               \n                    <div class=\"d-flex\">\n                        <div>\n
+        \                           <img class=\"w-100\" src=\"/on/demandware.static/-/Sites-ps-storefront-catalog/default/dw3c06cb3d/images/promotions/Promo_50Off.svg\"\n
+        \                               alt=\"50% off first month rent\" />\n                        </div>\n
+        \                       <span class=\"about-unit-promo\" data-toggle=\"modal\"
+        data-target=\"#promotionConditions\">\n                        </span>\n                    </div>\n
         \               \n            </div>\n        </div>\n    </div>\n</div>\n<div
         class=\"ps-hold-unit-free-message-mobile\"></div>\n\n<div class=\"plp-adminfee-container
         d-lg-none\">\n    <div class=\"plp-admin-fee-banner admin-fee-banner-reserve-below\">\n
@@ -1619,300 +1623,28 @@ http_interactions:
         \               \n            </ul>\n        </div>\n        <div class=\"unit-grid-item
         price-promotion-section\">\n            <div class=\"row half-gutters\">\n
         \               <div class=\"col-6 order-2 order-md-1  no-padding-right-mobile
-        mobile-price-hold-now\"\n                        data-hold-form-url=\"/on/demandware.store/Sites-publicstorage-Site/default/Reservation-GetHoldForm?masterPropertyID=2&amp;unitID=V_109\"\n
+        mobile-price-hold-now\"\n                        data-hold-form-url=\"/on/demandware.store/Sites-publicstorage-Site/default/Reservation-GetHoldForm?masterPropertyID=2&amp;unitID=V_350731\"\n
         \                       data-message-close=\"Close\"\n                        data-message-hold=\"Hold\"\n
         \                       data-message-hold-now=\"Hold Now\"\n                        data-message-continue=\"Continue\"\n
-        \                       data-unit-id=\"V_109\" data-store-id=\"2\" data-unit-size=\"Small
-        5'x5'\"\n                        data-gtmData=\"{&quot;features&quot;:[&quot;upstairs_access_via_elevator&quot;],&quot;listprice&quot;:159,&quot;saleprice&quot;:119,&quot;minPrice&quot;:119,&quot;count&quot;:1,&quot;ptm&quot;:false,&quot;id&quot;:&quot;V_109&quot;,&quot;isLarge&quot;:false,&quot;isMedium&quot;:false,&quot;isSmall&quot;:true,&quot;isVehicleUnit&quot;:false,&quot;showVehicleBanner&quot;:false,&quot;isStorageUnit&quot;:true,&quot;unitSize&quot;:&quot;Small&quot;,&quot;electronicLock&quot;:false,&quot;dimension&quot;:&quot;5'x5'&quot;,&quot;name&quot;:&quot;Small
+        \                       data-unit-id=\"V_350731\" data-store-id=\"2\" data-unit-size=\"Small
+        5'x5'\"\n                        data-gtmData=\"{&quot;features&quot;:[&quot;upstairs_access_via_elevator&quot;],&quot;listprice&quot;:163,&quot;saleprice&quot;:122,&quot;minPrice&quot;:107,&quot;count&quot;:2,&quot;ptm&quot;:false,&quot;id&quot;:&quot;V_350731&quot;,&quot;isLarge&quot;:false,&quot;isMedium&quot;:false,&quot;isSmall&quot;:true,&quot;isVehicleUnit&quot;:false,&quot;showVehicleBanner&quot;:false,&quot;isStorageUnit&quot;:true,&quot;unitSize&quot;:&quot;Small&quot;,&quot;electronicLock&quot;:false,&quot;dimension&quot;:&quot;5'x5'&quot;,&quot;name&quot;:&quot;Small
         5'x5'&quot;,&quot;tooltip&quot;:&quot;#ps-product-tooltip-Size-Guide-Small-5x5&quot;,&quot;filterClasses&quot;:&quot;
-        IsSmall IsStorageUnit &quot;,&quot;storeId&quot;:&quot;2&quot;,&quot;stateCode&quot;:&quot;CA&quot;,&quot;SRPGroupPosition&quot;:null,&quot;SRPDisplayRank&quot;:null,&quot;ProductID&quot;:&quot;1&quot;,&quot;PLPShowUpTo&quot;:null}\"\n
-        \                       data-unitIndex=\"1\">\n                        <div
-        class=\"ps-properties unit-prices\">\n                            <div class=\"unit-pricing-container
-        \n                             \n                             detail-mobile
-        \n                            price-opacity-zero\">\n                                \n
-        \                                   <div class=\"unit-pricing\">\n                                        <span
-        class=\"unit-price label\" data-pricebook-price=\"119.0\"\n                                            data-list-price=\"159.0\"
-        data-min-price=\"119.0\"\n                                            data-unit-id=\"V_109\"
-        data-unit-tier=\"\"\n                                            data-storeid=\"2\">\n
-        \                                           <span class=\"unit-price-currency\">\n
-        \                                               $</span><span\n                                                class=\"price-value\">\n
-        \                                               119\n                                            </span><span
-        class=\"unit-per-month\">/mo</span>\n                                        </span>\n
-        \                                       <span class=\"unit-strike-through-price
-        label\">\n                                            <span>\n                                                $\n
-        \                                               159</span>\n                                        </span>\n
-        \                                   </div>\n                                    <div
-        class=\"info-message unit-pricing-info\">\n                                        Online
-        only price\n                                    </div>\n                                \n\n\n\n
-        \                               \n                                <div class=\"best-price
-        d-none\">\n                                    <div class=\"best-price-label-img\"
-        role=\"img\" title=\"Best Price Label\">\n                                    <span
-        class=\"sr-only\">\n                                        Best Price Label\n
-        \                                   </span>\n                                </div>\n
-        \                           </div>\n                            <div class=\"unit-admin-list-fees
-        d-lg-none\">\n                                + one-time $29 admin fee\n                            </div>\n
-        \                       </div>\n                </div>\n            </div>\n
-        \           <div class=\"col-6 order-1 order-md-2  no-padding-right-mobile\">\n
-        \                   <div class=\"unit-availability-container\">\n                        \n
-        \                           \n                                <div class=\"unit-availability
-        label-availability d-flex align-items-center\">\n                                    <i
-        class=\"icon icon-clock\"></i>\n                                    \n                                        1
-        unit left!\n                                    \n                                </div>\n
-        \                           \n                            <div class=\"info-message
-        unit-availability-info\">\n                                Limited availability\n
-        \                           </div>\n                        \n                    </div>\n
-        \           </div>\n        </div>\n    </div>\n    <div class=\"unit-grid-item
-        create-hold\">\n        <div class=\"unit-hold-now-container text-right\">\n
-        \           \n                <button\n                    data-hold-form-url=\"/on/demandware.store/Sites-publicstorage-Site/default/Reservation-GetHoldForm?masterPropertyID=2&amp;unitID=V_109\"\n
-        \                   class=\"ps-btn-green btn-small unit-hold-now-button ps-btn-transparent\"\n
-        \           data-message-close=\"Close\"\n            data-message-hold=\"Hold\"\n
-        \           data-message-hold-now=\"Hold Now\"\n            data-message-continue=\"Continue\"\n
-        \           data-unit-id=\"V_109\" data-store-id=\"2\" data-unit-size=\"Small
-        5'x5'\"\n            data-gtmData=\"{&quot;features&quot;:[&quot;upstairs_access_via_elevator&quot;],&quot;listprice&quot;:159,&quot;saleprice&quot;:119,&quot;minPrice&quot;:119,&quot;count&quot;:1,&quot;ptm&quot;:false,&quot;id&quot;:&quot;V_109&quot;,&quot;isLarge&quot;:false,&quot;isMedium&quot;:false,&quot;isSmall&quot;:true,&quot;isVehicleUnit&quot;:false,&quot;showVehicleBanner&quot;:false,&quot;isStorageUnit&quot;:true,&quot;unitSize&quot;:&quot;Small&quot;,&quot;electronicLock&quot;:false,&quot;dimension&quot;:&quot;5'x5'&quot;,&quot;name&quot;:&quot;Small
-        5'x5'&quot;,&quot;tooltip&quot;:&quot;#ps-product-tooltip-Size-Guide-Small-5x5&quot;,&quot;filterClasses&quot;:&quot;
-        IsSmall IsStorageUnit &quot;,&quot;storeId&quot;:&quot;2&quot;,&quot;stateCode&quot;:&quot;CA&quot;,&quot;SRPGroupPosition&quot;:null,&quot;SRPDisplayRank&quot;:null,&quot;ProductID&quot;:&quot;1&quot;,&quot;PLPShowUpTo&quot;:null}\"\n
-        \           data-unitIndex=\"1\"\n            aria-label=\"Hold Now\">\n            <span
-        class=\"d-none d-md-block\"> Hold Now</span>\n            \n                <span
-        class=\"d-md-none\"> <i class=\"icon icon-chevron-right-green\"></i> </span>\n
-        \               \n            </button>\n            \n            <p class=\"info-message
-        unit-hold-now-info mt-1 d-none d-md-block\">\n                No Obligation\n
-        \           </p>\n        </div>\n    </div>\n    </div>\n\n    <div class=\"hold-form-container
-        d-none\">\n        \n        \n            <div class=\"plp-adminfee-container
-        admin__feeIcon-mobile \">\n        <div class=\"plp-admin-fee-banner d-block
-        mt-3 mb-2\">\n            All new rentals subject to one-time $29 admin fee.\n
-        \       </div>\n        <div class=\"admin__feeIconAB-V2 d-flex align-items-center\">\n
-        \           <span class=\"admin__feeIconAB-V2-image\"></span>\n            <span
-        class=\"admin__feeIconAB-V2-text\">\n                <strong>\n                    One-time
-        $29\n                </strong>\n                admin fee applies.\n            </span>\n
-        \       </div>\n    </div>\n    \n    \n    </div>\n</li>\n            \n
-        \           \n            \n                <div class=\"promotion-card-container\">\n
-        \                   \n\t \n\n\n\t\n    \n        <style>\r\n  .default-banner
-        {\r\n    display: block;\r\n  }\r\n\r\n  @media (max-width: 768px) {\r\n    .default-banner
-        {\r\n      display: none;\r\n    }\r\n  }\r\n\r\n  .ab-test-banner {\r\n    display:
-        none;\r\n  }\r\n\r\n  .ps-mob-ab-banner-active .ab-test-banner {\r\n    display:
-        block !important;\r\n  }\r\n\r\n  .ps-mob-ab-banner-active .default-banner{\r\n
-        \ display: none !important;\r\n  }\r\n</style>\r\n\r\n<div class=\"promotion-card-container__ca\">\r\n
-        \ <div>\r\n    <div\r\n      class=\"mt-3 mb-3 ps-property-banner d-none d-xl-block
-        d-lg-block default-banner\"\r\n    >\r\n      <img\r\n        alt=\"Public
-        Storage App Promo - Desktop\"\r\n        src=\"https://cdnflex.com/uploads/Website/Banner/BannersNew/PLP
-        Banner - eRental@2x.jpg\"\r\n      />\r\n    </div>\r\n    <div class=\"mt-3
-        mb-3 ps-property-banner d-none ab-test-banner\">\r\n      <picture>\r\n        <source\r\n
-        \         media=\"(max-width: 767px)\"\r\n          srcset=\"https://cdnflex.com/uploads/Website/Banner/BannersNew/eRental_online.jpg\"\r\n
-        \       />\r\n        <img\r\n          alt=\"Public Storage App Promo - AB
-        Test\"\r\n          src=\"https://cdnflex.com/uploads/Website/Banner/BannersNew/PLP
-        Banner - eRental@2x.jpg\"\r\n        />\r\n      </picture>\r\n    </div>\r\n
-        \ </div>\r\n</div>\n    \n\n \n\t\n                </div>\n            \n
-        \   \n        \n            \n                \n\n\n\n<li class=\"list-group-item
-        mobile-unit-list-item unit-list-item prioritized-unit sorted-initially \n
-        \    IsSmall IsStorageUnit \" data-unitid=\"V_1350278\" id=\"unit-V_1350278\">\n
-        \   <img alt=\"Save Impression\" class=\"d-none save-impression-img\" />\n
-        \   <button class=\"link d-none back-to-listing\">\n        <span class=\"back-chevron\"></span>
-        <span class=\"back-to-listing-text\">\n            Back to listing</span>\n
-        \   </button>\n    <input type=\"hidden\" id=\"timeSlot\" name=\"timeSlot\"\n
-        \       value=\"15\" scope=\"page\" />\n    <input type=\"hidden\" id=\"pid\"
-        name=\"pid\" value=\"2\" />\n    <input type=\"hidden\" id=\"dailyTimings\"
-        name=\"dailyTimings\" value=\"\" />\n    <input type=\"hidden\" aria-hidden=\"true\"
-        value=\"false\" class=\"enable-ERental\" />\n    <input type=\"hidden\" aria-hidden=\"true\"
-        value=\"false\" id=\"isDYPLP\" />\n    <div class=\"unit-timer-block\"></div>\n
-        \   <div class=\"unit-info-mobile d-none\">\n        \n\n\n\n<div class=\"plp-adminfee-container
-        d-lg-none\">\n    <div class=\"plp-admin-fee-banner admin-fee-banner-reserve-top\">\n
-        \       All new rentals subject to one-time $29 admin fee.\n    </div>\n</div>\n<div
-        class=\"mobile-unit-info-container\">\n    <div class=\"mobile-unit-address
-        \">\n        <div class=\"mobile-unit-address1\"></div>\n        <div>\n            <span
-        class=\"mobile-unit-city\"></span>\n            <span class=\"mobile-unit-state-code\"></span>\n
-        \           <span class=\"mobile-unit-postal-code\"></span>\n        </div>\n
-        \   </div>\n    <hr class=\"mobile-unit-separator\">\n    <div class=\"mobile-unit-section-2\">\n
-        \       <div class=\"row\">\n            <div class=\"col-3 size\">\n                5&#39;x10&#39;\n\n
-        \               \n                    <i class=\"icon icon-info tooltip-description\"
-        data-target=\"#ps-product-tooltip-Size-Guide-Small-5x10\"\n                        data-unit=\"Small
-        5'x10'\" data-url=\"/on/demandware.store/Sites-publicstorage-Site/default/Stores-SizeGuideTooltip?cid=ps-product-tooltip-Size-Guide-Small-5x10\"></i>\n
-        \               \n            </div>\n            \n\n\n            <div class=\"col-5
-        online-price\">\n                <div class=\"online-price-text\">\n                    Online
-        only price\n                </div>\n                <div class=\"unit-price-currency\">\n
-        \                   \n                        <div class=\"unit-pricing\">\n
-        \                           <span class=\"unit-price label\" data-pricebook-price=\"183.0\"\n
-        \                               data-list-price=\"243.0\" data-min-price=\"119.0\"\n
-        \                               data-unit-id=\"V_1350278\" data-unit-tier=\"\"
-        data-storeid=\"2\">\n                                <span class=\"unit-price-currency\">\n
-        \                                   $</span><span class=\"price-value\">\n
-        \                                   183</span><span\n                                    class=\"unit-per-month\">/mo</span>\n
-        \                           </span>\n                        </div>\n                        <div
-        class=\"info-message unit-pricing-info\">\n                            Online
-        only price\n                        </div>\n                    \n                </div>\n
-        \           </div>\n            <div class=\"col-4 promotion-content\">\n
-        \               \n                    <div class=\"d-flex\">\n                        <div>\n
-        \                           <img class=\"w-100\" src=\"/on/demandware.static/-/Sites-ps-storefront-catalog/default/dwaa187b44/images/promotions/Promo_$1first_month.svg\"\n
-        \                               alt=\"$1 first month rent\" />\n                        </div>\n
-        \                       <span class=\"about-unit-promo\" data-toggle=\"modal\"
-        data-target=\"#promotionConditions\">\n                        </span>\n                    </div>\n
-        \               \n            </div>\n        </div>\n    </div>\n</div>\n<div
-        class=\"ps-hold-unit-free-message-mobile\"></div>\n\n<div class=\"plp-adminfee-container
-        d-lg-none\">\n    <div class=\"plp-admin-fee-banner admin-fee-banner-reserve-below\">\n
-        \       All new rentals subject to one-time $29 admin fee.\n    </div>\n</div>\n\n
-        \   </div>\n\n    <div class=\"unit-grid\">\n        <div class=\"unit-grid-item\">\n
-        \           <div class=\"unit-name-container\">\n                <span class=\"unit-name
-        label\">\n                    <span class=\"mr-1\">\n                        Small</span>
-        <span class=\"unit-size\">\n                        5&#39;x10&#39;</span>\n
-        \               </span>\n                \n                    <i class=\"icon
-        icon-info d-inline-block d-md-inline-block tooltip-description\"\n                        data-target=\"#ps-product-tooltip-Size-Guide-Small-5x10\"\n
-        \                       data-url=\"/on/demandware.store/Sites-publicstorage-Site/default/Stores-SizeGuideTooltip?cid=ps-product-tooltip-Size-Guide-Small-5x10\"></i>\n
-        \               \n            </div>\n\n            <ul class=\"list-group
-        list-group-flush unit-properties-container\">\n                \n                    \n
-        \                       \n                            <li class=\"list-group-item
-        unit-property\">\n                                <i\n                                    class=\"icon
-        icon-property-property-name property-feature-icon IC_elevator\"></i>\n                                <span
-        class=\"unit-property-value label\">\n                                    Upstairs/elevator</span>\n
-        \                           </li>\n                            \n                    \n
-        \               \n            </ul>\n        </div>\n        <div class=\"unit-grid-item
-        price-promotion-section\">\n            <div class=\"row half-gutters\">\n
-        \               <div class=\"col-6 order-2 order-md-1  no-padding-right-mobile
-        mobile-price-hold-now\"\n                        data-hold-form-url=\"/on/demandware.store/Sites-publicstorage-Site/default/Reservation-GetHoldForm?masterPropertyID=2&amp;unitID=V_1350278\"\n
-        \                       data-message-close=\"Close\"\n                        data-message-hold=\"Hold\"\n
-        \                       data-message-hold-now=\"Hold Now\"\n                        data-message-continue=\"Continue\"\n
-        \                       data-unit-id=\"V_1350278\" data-store-id=\"2\" data-unit-size=\"Small
-        5'x10'\"\n                        data-gtmData=\"{&quot;features&quot;:[&quot;upstairs_access_via_elevator&quot;],&quot;listprice&quot;:243,&quot;saleprice&quot;:183,&quot;minPrice&quot;:119,&quot;count&quot;:3,&quot;ptm&quot;:false,&quot;id&quot;:&quot;V_1350278&quot;,&quot;isLarge&quot;:false,&quot;isMedium&quot;:false,&quot;isSmall&quot;:true,&quot;isVehicleUnit&quot;:false,&quot;showVehicleBanner&quot;:false,&quot;isStorageUnit&quot;:true,&quot;unitSize&quot;:&quot;Small&quot;,&quot;electronicLock&quot;:false,&quot;dimension&quot;:&quot;5'x10'&quot;,&quot;name&quot;:&quot;Small
-        5'x10'&quot;,&quot;tooltip&quot;:&quot;#ps-product-tooltip-Size-Guide-Small-5x10&quot;,&quot;filterClasses&quot;:&quot;
-        IsSmall IsStorageUnit &quot;,&quot;storeId&quot;:&quot;2&quot;,&quot;stateCode&quot;:&quot;CA&quot;,&quot;SRPGroupPosition&quot;:null,&quot;SRPDisplayRank&quot;:null,&quot;ProductID&quot;:&quot;2&quot;,&quot;PLPShowUpTo&quot;:null,&quot;promotionId&quot;:&quot;132&quot;,&quot;imageDisplay&quot;:&quot;/images/promotions/Promo_$1first_month.svg&quot;,&quot;promotionName&quot;:&quot;$1
-        first month rent&quot;}\"\n                        data-unitIndex=\"2\">\n
+        IsSmall IsStorageUnit &quot;,&quot;storeId&quot;:&quot;2&quot;,&quot;stateCode&quot;:&quot;CA&quot;,&quot;SRPGroupPosition&quot;:null,&quot;SRPDisplayRank&quot;:null,&quot;ProductID&quot;:&quot;1&quot;,&quot;PLPShowUpTo&quot;:null,&quot;promotionId&quot;:&quot;84&quot;,&quot;imageDisplay&quot;:&quot;/images/promotions/Promo_50Off.svg&quot;,&quot;promotionName&quot;:&quot;50%
+        off first month rent&quot;}\"\n                        data-unitIndex=\"1\">\n
         \                       <div class=\"ps-properties unit-prices\">\n                            <div
         class=\"unit-pricing-container \n                             \n                             detail-mobile
         \n                            price-opacity-zero\">\n                                \n
         \                                   <div class=\"unit-pricing\">\n                                        <span
-        class=\"unit-price label\" data-pricebook-price=\"183.0\"\n                                            data-list-price=\"243.0\"
-        data-min-price=\"119.0\"\n                                            data-unit-id=\"V_1350278\"
+        class=\"unit-price label\" data-pricebook-price=\"122.0\"\n                                            data-list-price=\"163.0\"
+        data-min-price=\"107.0\"\n                                            data-unit-id=\"V_350731\"
         data-unit-tier=\"\"\n                                            data-storeid=\"2\">\n
         \                                           <span class=\"unit-price-currency\">\n
         \                                               $</span><span\n                                                class=\"price-value\">\n
-        \                                               183\n                                            </span><span
+        \                                               122\n                                            </span><span
         class=\"unit-per-month\">/mo</span>\n                                        </span>\n
         \                                       <span class=\"unit-strike-through-price
         label\">\n                                            <span>\n                                                $\n
-        \                                               243</span>\n                                        </span>\n
-        \                                   </div>\n                                    <div
-        class=\"info-message unit-pricing-info\">\n                                        Online
-        only price\n                                    </div>\n                                \n\n\n\n
-        \                               \n                                <div class=\"best-price
-        d-none\">\n                                    <div class=\"best-price-label-img\"
-        role=\"img\" title=\"Best Price Label\">\n                                    <span
-        class=\"sr-only\">\n                                        Best Price Label\n
-        \                                   </span>\n                                </div>\n
-        \                           </div>\n                            <div class=\"unit-admin-list-fees
-        d-lg-none\">\n                                + one-time $29 admin fee\n                            </div>\n
-        \                       </div>\n                </div>\n            </div>\n
-        \           <div class=\"col-6 order-1 order-md-2  no-padding-right-mobile\">\n
-        \                   <div class=\"unit-availability-container\">\n                        \n
-        \                           <div class=\"d-inline-block\">\n                                <img
-        class=\"promo-img\"\n                                    src=\"/on/demandware.static/-/Sites-ps-storefront-catalog/default/dwaa187b44/images/promotions/Promo_$1first_month.svg\"\n
-        \                                   alt=\"$1 first month rent\" />\n                                <span
-        class=\"about-unit-promo\" data-toggle=\"modal\" data-target=\"#promotionModal\">\n
-        \                               </span>\n                            </div>\n
-        \                       \n                    </div>\n            </div>\n
-        \       </div>\n    </div>\n    <div class=\"unit-grid-item create-hold\">\n
-        \       <div class=\"unit-hold-now-container text-right\">\n            \n
-        \               <button\n                    data-hold-form-url=\"/on/demandware.store/Sites-publicstorage-Site/default/Reservation-GetHoldForm?masterPropertyID=2&amp;unitID=V_1350278\"\n
-        \                   class=\"ps-btn-green btn-small unit-hold-now-button ps-btn-transparent\"\n
-        \           data-message-close=\"Close\"\n            data-message-hold=\"Hold\"\n
-        \           data-message-hold-now=\"Hold Now\"\n            data-message-continue=\"Continue\"\n
-        \           data-unit-id=\"V_1350278\" data-store-id=\"2\" data-unit-size=\"Small
-        5'x10'\"\n            data-gtmData=\"{&quot;features&quot;:[&quot;upstairs_access_via_elevator&quot;],&quot;listprice&quot;:243,&quot;saleprice&quot;:183,&quot;minPrice&quot;:119,&quot;count&quot;:3,&quot;ptm&quot;:false,&quot;id&quot;:&quot;V_1350278&quot;,&quot;isLarge&quot;:false,&quot;isMedium&quot;:false,&quot;isSmall&quot;:true,&quot;isVehicleUnit&quot;:false,&quot;showVehicleBanner&quot;:false,&quot;isStorageUnit&quot;:true,&quot;unitSize&quot;:&quot;Small&quot;,&quot;electronicLock&quot;:false,&quot;dimension&quot;:&quot;5'x10'&quot;,&quot;name&quot;:&quot;Small
-        5'x10'&quot;,&quot;tooltip&quot;:&quot;#ps-product-tooltip-Size-Guide-Small-5x10&quot;,&quot;filterClasses&quot;:&quot;
-        IsSmall IsStorageUnit &quot;,&quot;storeId&quot;:&quot;2&quot;,&quot;stateCode&quot;:&quot;CA&quot;,&quot;SRPGroupPosition&quot;:null,&quot;SRPDisplayRank&quot;:null,&quot;ProductID&quot;:&quot;2&quot;,&quot;PLPShowUpTo&quot;:null,&quot;promotionId&quot;:&quot;132&quot;,&quot;imageDisplay&quot;:&quot;/images/promotions/Promo_$1first_month.svg&quot;,&quot;promotionName&quot;:&quot;$1
-        first month rent&quot;}\"\n            data-unitIndex=\"2\"\n            aria-label=\"Hold
-        Now\">\n            <span class=\"d-none d-md-block\"> Hold Now</span>\n            \n
-        \               <span class=\"d-md-none\"> <i class=\"icon icon-chevron-right-green\"></i>
-        </span>\n                \n            </button>\n            \n            <p
-        class=\"info-message unit-hold-now-info mt-1 d-none d-md-block\">\n                No
-        Obligation\n            </p>\n        </div>\n    </div>\n    </div>\n\n    <div
-        class=\"hold-form-container d-none\">\n        \n        \n            <div
-        class=\"plp-adminfee-container admin__feeIcon-mobile \">\n        <div class=\"plp-admin-fee-banner
-        d-block mt-3 mb-2\">\n            All new rentals subject to one-time $29
-        admin fee.\n        </div>\n        <div class=\"admin__feeIconAB-V2 d-flex
-        align-items-center\">\n            <span class=\"admin__feeIconAB-V2-image\"></span>\n
-        \           <span class=\"admin__feeIconAB-V2-text\">\n                <strong>\n
-        \                   One-time $29\n                </strong>\n                admin
-        fee applies.\n            </span>\n        </div>\n    </div>\n    \n    \n
-        \   </div>\n</li>\n            \n            \n            \n    \n        \n
-        \           \n                \n\n\n\n<li class=\"list-group-item mobile-unit-list-item
-        unit-list-item prioritized-unit sorted-initially \n     IsSmall IsStorageUnit
-        \" data-unitid=\"V_584412\" id=\"unit-V_584412\">\n    <img alt=\"Save Impression\"
-        class=\"d-none save-impression-img\" />\n    <button class=\"link d-none back-to-listing\">\n
-        \       <span class=\"back-chevron\"></span> <span class=\"back-to-listing-text\">\n
-        \           Back to listing</span>\n    </button>\n    <input type=\"hidden\"
-        id=\"timeSlot\" name=\"timeSlot\"\n        value=\"15\" scope=\"page\" />\n
-        \   <input type=\"hidden\" id=\"pid\" name=\"pid\" value=\"2\" />\n    <input
-        type=\"hidden\" id=\"dailyTimings\" name=\"dailyTimings\" value=\"\" />\n
-        \   <input type=\"hidden\" aria-hidden=\"true\" value=\"false\" class=\"enable-ERental\"
-        />\n    <input type=\"hidden\" aria-hidden=\"true\" value=\"false\" id=\"isDYPLP\"
-        />\n    <div class=\"unit-timer-block\"></div>\n    <div class=\"unit-info-mobile
-        d-none\">\n        \n\n\n\n<div class=\"plp-adminfee-container d-lg-none\">\n
-        \   <div class=\"plp-admin-fee-banner admin-fee-banner-reserve-top\">\n        All
-        new rentals subject to one-time $29 admin fee.\n    </div>\n</div>\n<div class=\"mobile-unit-info-container\">\n
-        \   <div class=\"mobile-unit-address \">\n        <div class=\"mobile-unit-address1\"></div>\n
-        \       <div>\n            <span class=\"mobile-unit-city\"></span>\n            <span
-        class=\"mobile-unit-state-code\"></span>\n            <span class=\"mobile-unit-postal-code\"></span>\n
-        \       </div>\n    </div>\n    <hr class=\"mobile-unit-separator\">\n    <div
-        class=\"mobile-unit-section-2\">\n        <div class=\"row\">\n            <div
-        class=\"col-3 size\">\n                6&#39;x10&#39;\n\n                \n
-        \           </div>\n            \n\n\n            <div class=\"col-5 online-price\">\n
-        \               <div class=\"online-price-text\">\n                    Online
-        only price\n                </div>\n                <div class=\"unit-price-currency\">\n
-        \                   \n                        <div class=\"unit-pricing\">\n
-        \                           <span class=\"unit-price label\" data-pricebook-price=\"184.0\"\n
-        \                               data-list-price=\"245.0\" data-min-price=\"119.0\"\n
-        \                               data-unit-id=\"V_584412\" data-unit-tier=\"\"
-        data-storeid=\"2\">\n                                <span class=\"unit-price-currency\">\n
-        \                                   $</span><span class=\"price-value\">\n
-        \                                   184</span><span\n                                    class=\"unit-per-month\">/mo</span>\n
-        \                           </span>\n                        </div>\n                        <div
-        class=\"info-message unit-pricing-info\">\n                            Online
-        only price\n                        </div>\n                    \n                </div>\n
-        \           </div>\n            <div class=\"col-4 promotion-content\">\n
-        \               \n                    <div class=\"d-flex\">\n                        <div>\n
-        \                           <img class=\"w-100\" src=\"/on/demandware.static/-/Sites-ps-storefront-catalog/default/dw3c06cb3d/images/promotions/Promo_50Off.svg\"\n
-        \                               alt=\"50% off first month rent\" />\n                        </div>\n
-        \                       <span class=\"about-unit-promo\" data-toggle=\"modal\"
-        data-target=\"#promotionConditions\">\n                        </span>\n                    </div>\n
-        \               \n            </div>\n        </div>\n    </div>\n</div>\n<div
-        class=\"ps-hold-unit-free-message-mobile\"></div>\n\n<div class=\"plp-adminfee-container
-        d-lg-none\">\n    <div class=\"plp-admin-fee-banner admin-fee-banner-reserve-below\">\n
-        \       All new rentals subject to one-time $29 admin fee.\n    </div>\n</div>\n\n
-        \   </div>\n\n    <div class=\"unit-grid\">\n        <div class=\"unit-grid-item\">\n
-        \           <div class=\"unit-name-container\">\n                <span class=\"unit-name
-        label\">\n                    <span class=\"mr-1\">\n                        Small</span>
-        <span class=\"unit-size\">\n                        6&#39;x10&#39;</span>\n
-        \               </span>\n                \n            </div>\n\n            <ul
-        class=\"list-group list-group-flush unit-properties-container\">\n                \n
-        \                   \n                        \n                            <li
-        class=\"list-group-item unit-property\">\n                                <i\n
-        \                                   class=\"icon icon-property-property-name
-        property-feature-icon IC_elevator\"></i>\n                                <span
-        class=\"unit-property-value label\">\n                                    Upstairs/elevator</span>\n
-        \                           </li>\n                            \n                    \n
-        \               \n            </ul>\n        </div>\n        <div class=\"unit-grid-item
-        price-promotion-section\">\n            <div class=\"row half-gutters\">\n
-        \               <div class=\"col-6 order-2 order-md-1  no-padding-right-mobile
-        mobile-price-hold-now\"\n                        data-hold-form-url=\"/on/demandware.store/Sites-publicstorage-Site/default/Reservation-GetHoldForm?masterPropertyID=2&amp;unitID=V_584412\"\n
-        \                       data-message-close=\"Close\"\n                        data-message-hold=\"Hold\"\n
-        \                       data-message-hold-now=\"Hold Now\"\n                        data-message-continue=\"Continue\"\n
-        \                       data-unit-id=\"V_584412\" data-store-id=\"2\" data-unit-size=\"Small
-        6'x10'\"\n                        data-gtmData=\"{&quot;features&quot;:[&quot;upstairs_access_via_elevator&quot;],&quot;listprice&quot;:245,&quot;saleprice&quot;:184,&quot;minPrice&quot;:119,&quot;count&quot;:1,&quot;ptm&quot;:false,&quot;id&quot;:&quot;V_584412&quot;,&quot;isLarge&quot;:false,&quot;isMedium&quot;:false,&quot;isSmall&quot;:true,&quot;isVehicleUnit&quot;:false,&quot;showVehicleBanner&quot;:false,&quot;isStorageUnit&quot;:true,&quot;unitSize&quot;:&quot;Small&quot;,&quot;electronicLock&quot;:false,&quot;dimension&quot;:&quot;6'x10'&quot;,&quot;name&quot;:&quot;Small
-        6'x10'&quot;,&quot;tooltip&quot;:null,&quot;filterClasses&quot;:&quot; IsSmall
-        IsStorageUnit &quot;,&quot;storeId&quot;:&quot;2&quot;,&quot;stateCode&quot;:&quot;CA&quot;,&quot;SRPGroupPosition&quot;:null,&quot;SRPDisplayRank&quot;:null,&quot;ProductID&quot;:&quot;2&quot;,&quot;PLPShowUpTo&quot;:null,&quot;promotionId&quot;:&quot;84&quot;,&quot;imageDisplay&quot;:&quot;/images/promotions/Promo_50Off.svg&quot;,&quot;promotionName&quot;:&quot;50%
-        off first month rent&quot;}\"\n                        data-unitIndex=\"3\">\n
-        \                       <div class=\"ps-properties unit-prices\">\n                            <div
-        class=\"unit-pricing-container \n                             \n                             detail-mobile
-        \n                            price-opacity-zero\">\n                                \n
-        \                                   <div class=\"unit-pricing\">\n                                        <span
-        class=\"unit-price label\" data-pricebook-price=\"184.0\"\n                                            data-list-price=\"245.0\"
-        data-min-price=\"119.0\"\n                                            data-unit-id=\"V_584412\"
-        data-unit-tier=\"\"\n                                            data-storeid=\"2\">\n
-        \                                           <span class=\"unit-price-currency\">\n
-        \                                               $</span><span\n                                                class=\"price-value\">\n
-        \                                               184\n                                            </span><span
-        class=\"unit-per-month\">/mo</span>\n                                        </span>\n
-        \                                       <span class=\"unit-strike-through-price
-        label\">\n                                            <span>\n                                                $\n
-        \                                               245</span>\n                                        </span>\n
+        \                                               163</span>\n                                        </span>\n
         \                                   </div>\n                                    <div
         class=\"info-message unit-pricing-info\">\n                                        Online
         only price\n                                    </div>\n                                \n\n\n\n
@@ -1934,13 +1666,280 @@ http_interactions:
         \                           </div>\n                        \n                    </div>\n
         \           </div>\n        </div>\n    </div>\n    <div class=\"unit-grid-item
         create-hold\">\n        <div class=\"unit-hold-now-container text-right\">\n
-        \           \n                <button\n                    data-hold-form-url=\"/on/demandware.store/Sites-publicstorage-Site/default/Reservation-GetHoldForm?masterPropertyID=2&amp;unitID=V_584412\"\n
+        \           \n                <button\n                    data-hold-form-url=\"/on/demandware.store/Sites-publicstorage-Site/default/Reservation-GetHoldForm?masterPropertyID=2&amp;unitID=V_350731\"\n
         \                   class=\"ps-btn-green btn-small unit-hold-now-button ps-btn-transparent\"\n
         \           data-message-close=\"Close\"\n            data-message-hold=\"Hold\"\n
         \           data-message-hold-now=\"Hold Now\"\n            data-message-continue=\"Continue\"\n
-        \           data-unit-id=\"V_584412\" data-store-id=\"2\" data-unit-size=\"Small
-        6'x10'\"\n            data-gtmData=\"{&quot;features&quot;:[&quot;upstairs_access_via_elevator&quot;],&quot;listprice&quot;:245,&quot;saleprice&quot;:184,&quot;minPrice&quot;:119,&quot;count&quot;:1,&quot;ptm&quot;:false,&quot;id&quot;:&quot;V_584412&quot;,&quot;isLarge&quot;:false,&quot;isMedium&quot;:false,&quot;isSmall&quot;:true,&quot;isVehicleUnit&quot;:false,&quot;showVehicleBanner&quot;:false,&quot;isStorageUnit&quot;:true,&quot;unitSize&quot;:&quot;Small&quot;,&quot;electronicLock&quot;:false,&quot;dimension&quot;:&quot;6'x10'&quot;,&quot;name&quot;:&quot;Small
-        6'x10'&quot;,&quot;tooltip&quot;:null,&quot;filterClasses&quot;:&quot; IsSmall
+        \           data-unit-id=\"V_350731\" data-store-id=\"2\" data-unit-size=\"Small
+        5'x5'\"\n            data-gtmData=\"{&quot;features&quot;:[&quot;upstairs_access_via_elevator&quot;],&quot;listprice&quot;:163,&quot;saleprice&quot;:122,&quot;minPrice&quot;:107,&quot;count&quot;:2,&quot;ptm&quot;:false,&quot;id&quot;:&quot;V_350731&quot;,&quot;isLarge&quot;:false,&quot;isMedium&quot;:false,&quot;isSmall&quot;:true,&quot;isVehicleUnit&quot;:false,&quot;showVehicleBanner&quot;:false,&quot;isStorageUnit&quot;:true,&quot;unitSize&quot;:&quot;Small&quot;,&quot;electronicLock&quot;:false,&quot;dimension&quot;:&quot;5'x5'&quot;,&quot;name&quot;:&quot;Small
+        5'x5'&quot;,&quot;tooltip&quot;:&quot;#ps-product-tooltip-Size-Guide-Small-5x5&quot;,&quot;filterClasses&quot;:&quot;
+        IsSmall IsStorageUnit &quot;,&quot;storeId&quot;:&quot;2&quot;,&quot;stateCode&quot;:&quot;CA&quot;,&quot;SRPGroupPosition&quot;:null,&quot;SRPDisplayRank&quot;:null,&quot;ProductID&quot;:&quot;1&quot;,&quot;PLPShowUpTo&quot;:null,&quot;promotionId&quot;:&quot;84&quot;,&quot;imageDisplay&quot;:&quot;/images/promotions/Promo_50Off.svg&quot;,&quot;promotionName&quot;:&quot;50%
+        off first month rent&quot;}\"\n            data-unitIndex=\"1\"\n            aria-label=\"Hold
+        Now\">\n            <span class=\"d-none d-md-block\"> Hold Now</span>\n            \n
+        \               <span class=\"d-md-none\"> <i class=\"icon icon-chevron-right-green\"></i>
+        </span>\n                \n            </button>\n            \n            <p
+        class=\"info-message unit-hold-now-info mt-1 d-none d-md-block\">\n                No
+        Obligation\n            </p>\n        </div>\n    </div>\n    </div>\n\n    <div
+        class=\"hold-form-container d-none\">\n        \n        \n            <div
+        class=\"plp-adminfee-container admin__feeIcon-mobile \">\n        <div class=\"plp-admin-fee-banner
+        d-block mt-3 mb-2\">\n            All new rentals subject to one-time $29
+        admin fee.\n        </div>\n        <div class=\"admin__feeIconAB-V2 d-flex
+        align-items-center\">\n            <span class=\"admin__feeIconAB-V2-image\"></span>\n
+        \           <span class=\"admin__feeIconAB-V2-text\">\n                <strong>\n
+        \                   One-time $29\n                </strong>\n                admin
+        fee applies.\n            </span>\n        </div>\n    </div>\n    \n    \n
+        \   </div>\n</li>\n            \n            \n            \n                <div
+        class=\"promotion-card-container\">\n                    \n\t \n\n\n\t\n    \n
+        \       <style>\r\n  .default-banner {\r\n    display: block;\r\n  }\r\n\r\n
+        \ @media (max-width: 768px) {\r\n    .default-banner {\r\n      display: none;\r\n
+        \   }\r\n  }\r\n\r\n  .ab-test-banner {\r\n    display: none;\r\n  }\r\n\r\n
+        \ .ps-mob-ab-banner-active .ab-test-banner {\r\n    display: block !important;\r\n
+        \ }\r\n\r\n  .ps-mob-ab-banner-active .default-banner{\r\n  display: none
+        !important;\r\n  }\r\n</style>\r\n\r\n<div class=\"promotion-card-container__ca\">\r\n
+        \ <div>\r\n    <div\r\n      class=\"mt-3 mb-3 ps-property-banner d-none d-xl-block
+        d-lg-block default-banner\"\r\n    >\r\n      <img\r\n        alt=\"Public
+        Storage App Promo - Desktop\"\r\n        src=\"https://cdnflex.com/uploads/Website/Banner/BannersNew/PLP
+        Banner - eRental@2x.jpg\"\r\n      />\r\n    </div>\r\n    <div class=\"mt-3
+        mb-3 ps-property-banner d-none ab-test-banner\">\r\n      <picture>\r\n        <source\r\n
+        \         media=\"(max-width: 767px)\"\r\n          srcset=\"https://cdnflex.com/uploads/Website/Banner/BannersNew/eRental_online.jpg\"\r\n
+        \       />\r\n        <img\r\n          alt=\"Public Storage App Promo - AB
+        Test\"\r\n          src=\"https://cdnflex.com/uploads/Website/Banner/BannersNew/PLP
+        Banner - eRental@2x.jpg\"\r\n        />\r\n      </picture>\r\n    </div>\r\n
+        \ </div>\r\n</div>\n    \n\n \n\t\n                </div>\n            \n
+        \   \n        \n            \n                \n\n\n\n<li class=\"list-group-item
+        mobile-unit-list-item unit-list-item prioritized-unit sorted-initially \n
+        \    IsSmall IsStorageUnit \" data-unitid=\"V_108\" id=\"unit-V_108\">\n    <img
+        alt=\"Save Impression\" class=\"d-none save-impression-img\" />\n    <button
+        class=\"link d-none back-to-listing\">\n        <span class=\"back-chevron\"></span>
+        <span class=\"back-to-listing-text\">\n            Back to listing</span>\n
+        \   </button>\n    <input type=\"hidden\" id=\"timeSlot\" name=\"timeSlot\"\n
+        \       value=\"15\" scope=\"page\" />\n    <input type=\"hidden\" id=\"pid\"
+        name=\"pid\" value=\"2\" />\n    <input type=\"hidden\" id=\"dailyTimings\"
+        name=\"dailyTimings\" value=\"\" />\n    <input type=\"hidden\" aria-hidden=\"true\"
+        value=\"false\" class=\"enable-ERental\" />\n    <input type=\"hidden\" aria-hidden=\"true\"
+        value=\"false\" id=\"isDYPLP\" />\n    <div class=\"unit-timer-block\"></div>\n
+        \   <div class=\"unit-info-mobile d-none\">\n        \n\n\n\n<div class=\"plp-adminfee-container
+        d-lg-none\">\n    <div class=\"plp-admin-fee-banner admin-fee-banner-reserve-top\">\n
+        \       All new rentals subject to one-time $29 admin fee.\n    </div>\n</div>\n<div
+        class=\"mobile-unit-info-container\">\n    <div class=\"mobile-unit-address
+        \">\n        <div class=\"mobile-unit-address1\"></div>\n        <div>\n            <span
+        class=\"mobile-unit-city\"></span>\n            <span class=\"mobile-unit-state-code\"></span>\n
+        \           <span class=\"mobile-unit-postal-code\"></span>\n        </div>\n
+        \   </div>\n    <hr class=\"mobile-unit-separator\">\n    <div class=\"mobile-unit-section-2\">\n
+        \       <div class=\"row\">\n            <div class=\"col-3 size\">\n                5&#39;x10&#39;\n\n
+        \               \n                    <i class=\"icon icon-info tooltip-description\"
+        data-target=\"#ps-product-tooltip-Size-Guide-Small-5x10\"\n                        data-unit=\"Small
+        5'x10'\" data-url=\"/on/demandware.store/Sites-publicstorage-Site/default/Stores-SizeGuideTooltip?cid=ps-product-tooltip-Size-Guide-Small-5x10\"></i>\n
+        \               \n            </div>\n            \n                <div class=\"col-4\"></div>\n
+        \           \n\n\n            <div class=\"col-5 online-price\">\n                <div
+        class=\"online-price-text\">\n                    Online only price\n                </div>\n
+        \               <div class=\"unit-price-currency\">\n                    \n
+        \                       <div class=\"unit-pricing\">\n                            <span
+        class=\"unit-price label\" data-pricebook-price=\"172.0\"\n                                data-list-price=\"230.0\"
+        data-min-price=\"107.0\"\n                                data-unit-id=\"V_108\"
+        data-unit-tier=\"\" data-storeid=\"2\">\n                                <span
+        class=\"unit-price-currency\">\n                                    $</span><span
+        class=\"price-value\">\n                                    172</span><span\n
+        \                                   class=\"unit-per-month\">/mo</span>\n
+        \                           </span>\n                        </div>\n                        <div
+        class=\"info-message unit-pricing-info\">\n                            Online
+        only price\n                        </div>\n                    \n                </div>\n
+        \           </div>\n            <div class=\"col-4 promotion-content\">\n
+        \               \n            </div>\n        </div>\n    </div>\n</div>\n<div
+        class=\"ps-hold-unit-free-message-mobile\"></div>\n\n<div class=\"plp-adminfee-container
+        d-lg-none\">\n    <div class=\"plp-admin-fee-banner admin-fee-banner-reserve-below\">\n
+        \       All new rentals subject to one-time $29 admin fee.\n    </div>\n</div>\n\n
+        \   </div>\n\n    <div class=\"unit-grid\">\n        <div class=\"unit-grid-item\">\n
+        \           <div class=\"unit-name-container\">\n                <span class=\"unit-name
+        label\">\n                    <span class=\"mr-1\">\n                        Small</span>
+        <span class=\"unit-size\">\n                        5&#39;x10&#39;</span>\n
+        \               </span>\n                \n                    <i class=\"icon
+        icon-info d-inline-block d-md-inline-block tooltip-description\"\n                        data-target=\"#ps-product-tooltip-Size-Guide-Small-5x10\"\n
+        \                       data-url=\"/on/demandware.store/Sites-publicstorage-Site/default/Stores-SizeGuideTooltip?cid=ps-product-tooltip-Size-Guide-Small-5x10\"></i>\n
+        \               \n            </div>\n\n            <ul class=\"list-group
+        list-group-flush unit-properties-container\">\n                \n                    \n
+        \                       \n                            <li class=\"list-group-item
+        unit-property\">\n                                <i\n                                    class=\"icon
+        icon-property-property-name property-feature-icon IC_elevator\"></i>\n                                <span
+        class=\"unit-property-value label\">\n                                    Upstairs/elevator</span>\n
+        \                           </li>\n                            \n                    \n
+        \               \n            </ul>\n        </div>\n        <div class=\"unit-grid-item
+        price-promotion-section\">\n            <div class=\"row half-gutters\">\n
+        \               <div class=\"col-6 order-2 order-md-1  no-padding-right-mobile
+        mobile-price-hold-now\"\n                        data-hold-form-url=\"/on/demandware.store/Sites-publicstorage-Site/default/Reservation-GetHoldForm?masterPropertyID=2&amp;unitID=V_108\"\n
+        \                       data-message-close=\"Close\"\n                        data-message-hold=\"Hold\"\n
+        \                       data-message-hold-now=\"Hold Now\"\n                        data-message-continue=\"Continue\"\n
+        \                       data-unit-id=\"V_108\" data-store-id=\"2\" data-unit-size=\"Small
+        5'x10'\"\n                        data-gtmData=\"{&quot;features&quot;:[&quot;upstairs_access_via_elevator&quot;],&quot;listprice&quot;:230,&quot;saleprice&quot;:172,&quot;minPrice&quot;:107,&quot;count&quot;:11,&quot;ptm&quot;:false,&quot;id&quot;:&quot;V_108&quot;,&quot;isLarge&quot;:false,&quot;isMedium&quot;:false,&quot;isSmall&quot;:true,&quot;isVehicleUnit&quot;:false,&quot;showVehicleBanner&quot;:false,&quot;isStorageUnit&quot;:true,&quot;unitSize&quot;:&quot;Small&quot;,&quot;electronicLock&quot;:false,&quot;dimension&quot;:&quot;5'x10'&quot;,&quot;name&quot;:&quot;Small
+        5'x10'&quot;,&quot;tooltip&quot;:&quot;#ps-product-tooltip-Size-Guide-Small-5x10&quot;,&quot;filterClasses&quot;:&quot;
+        IsSmall IsStorageUnit &quot;,&quot;storeId&quot;:&quot;2&quot;,&quot;stateCode&quot;:&quot;CA&quot;,&quot;SRPGroupPosition&quot;:null,&quot;SRPDisplayRank&quot;:null,&quot;ProductID&quot;:&quot;2&quot;,&quot;PLPShowUpTo&quot;:null}\"\n
+        \                       data-unitIndex=\"2\">\n                        <div
+        class=\"ps-properties unit-prices\">\n                            <div class=\"unit-pricing-container
+        \n                             \n                             detail-mobile
+        \n                            price-opacity-zero\">\n                                \n
+        \                                   <div class=\"unit-pricing\">\n                                        <span
+        class=\"unit-price label\" data-pricebook-price=\"172.0\"\n                                            data-list-price=\"230.0\"
+        data-min-price=\"107.0\"\n                                            data-unit-id=\"V_108\"
+        data-unit-tier=\"\"\n                                            data-storeid=\"2\">\n
+        \                                           <span class=\"unit-price-currency\">\n
+        \                                               $</span><span\n                                                class=\"price-value\">\n
+        \                                               172\n                                            </span><span
+        class=\"unit-per-month\">/mo</span>\n                                        </span>\n
+        \                                       <span class=\"unit-strike-through-price
+        label\">\n                                            <span>\n                                                $\n
+        \                                               230</span>\n                                        </span>\n
+        \                                   </div>\n                                    <div
+        class=\"info-message unit-pricing-info\">\n                                        Online
+        only price\n                                    </div>\n                                \n\n\n\n
+        \                               \n                                <div class=\"best-price
+        d-none\">\n                                    <div class=\"best-price-label-img\"
+        role=\"img\" title=\"Best Price Label\">\n                                    <span
+        class=\"sr-only\">\n                                        Best Price Label\n
+        \                                   </span>\n                                </div>\n
+        \                           </div>\n                            <div class=\"unit-admin-list-fees
+        d-lg-none\">\n                                + one-time $29 admin fee\n                            </div>\n
+        \                       </div>\n                </div>\n            </div>\n
+        \           <div class=\"col-6 order-1 order-md-2  no-padding-right-mobile\">\n
+        \                   <div class=\"unit-availability-container\">\n                        \n
+        \                           \n                                <div class=\"unit-availability
+        label-availability d-flex align-items-center\">\n                                    <i
+        class=\"icon icon-clock\"></i>\n                                    Hurry!\n
+        \                               </div>\n                            \n                            <div
+        class=\"info-message unit-availability-info\">\n                                Limited
+        availability\n                            </div>\n                        \n
+        \                   </div>\n            </div>\n        </div>\n    </div>\n
+        \   <div class=\"unit-grid-item create-hold\">\n        <div class=\"unit-hold-now-container
+        text-right\">\n            \n                <button\n                    data-hold-form-url=\"/on/demandware.store/Sites-publicstorage-Site/default/Reservation-GetHoldForm?masterPropertyID=2&amp;unitID=V_108\"\n
+        \                   class=\"ps-btn-green btn-small unit-hold-now-button ps-btn-transparent\"\n
+        \           data-message-close=\"Close\"\n            data-message-hold=\"Hold\"\n
+        \           data-message-hold-now=\"Hold Now\"\n            data-message-continue=\"Continue\"\n
+        \           data-unit-id=\"V_108\" data-store-id=\"2\" data-unit-size=\"Small
+        5'x10'\"\n            data-gtmData=\"{&quot;features&quot;:[&quot;upstairs_access_via_elevator&quot;],&quot;listprice&quot;:230,&quot;saleprice&quot;:172,&quot;minPrice&quot;:107,&quot;count&quot;:11,&quot;ptm&quot;:false,&quot;id&quot;:&quot;V_108&quot;,&quot;isLarge&quot;:false,&quot;isMedium&quot;:false,&quot;isSmall&quot;:true,&quot;isVehicleUnit&quot;:false,&quot;showVehicleBanner&quot;:false,&quot;isStorageUnit&quot;:true,&quot;unitSize&quot;:&quot;Small&quot;,&quot;electronicLock&quot;:false,&quot;dimension&quot;:&quot;5'x10'&quot;,&quot;name&quot;:&quot;Small
+        5'x10'&quot;,&quot;tooltip&quot;:&quot;#ps-product-tooltip-Size-Guide-Small-5x10&quot;,&quot;filterClasses&quot;:&quot;
+        IsSmall IsStorageUnit &quot;,&quot;storeId&quot;:&quot;2&quot;,&quot;stateCode&quot;:&quot;CA&quot;,&quot;SRPGroupPosition&quot;:null,&quot;SRPDisplayRank&quot;:null,&quot;ProductID&quot;:&quot;2&quot;,&quot;PLPShowUpTo&quot;:null}\"\n
+        \           data-unitIndex=\"2\"\n            aria-label=\"Hold Now\">\n            <span
+        class=\"d-none d-md-block\"> Hold Now</span>\n            \n                <span
+        class=\"d-md-none\"> <i class=\"icon icon-chevron-right-green\"></i> </span>\n
+        \               \n            </button>\n            \n            <p class=\"info-message
+        unit-hold-now-info mt-1 d-none d-md-block\">\n                No Obligation\n
+        \           </p>\n        </div>\n    </div>\n    </div>\n\n    <div class=\"hold-form-container
+        d-none\">\n        \n        \n            <div class=\"plp-adminfee-container
+        admin__feeIcon-mobile \">\n        <div class=\"plp-admin-fee-banner d-block
+        mt-3 mb-2\">\n            All new rentals subject to one-time $29 admin fee.\n
+        \       </div>\n        <div class=\"admin__feeIconAB-V2 d-flex align-items-center\">\n
+        \           <span class=\"admin__feeIconAB-V2-image\"></span>\n            <span
+        class=\"admin__feeIconAB-V2-text\">\n                <strong>\n                    One-time
+        $29\n                </strong>\n                admin fee applies.\n            </span>\n
+        \       </div>\n    </div>\n    \n    \n    </div>\n</li>\n            \n
+        \           \n            \n    \n        \n            \n                \n\n\n\n<li
+        class=\"list-group-item mobile-unit-list-item unit-list-item prioritized-unit
+        sorted-initially \n     IsSmall IsStorageUnit \" data-unitid=\"V_101\" id=\"unit-V_101\">\n
+        \   <img alt=\"Save Impression\" class=\"d-none save-impression-img\" />\n
+        \   <button class=\"link d-none back-to-listing\">\n        <span class=\"back-chevron\"></span>
+        <span class=\"back-to-listing-text\">\n            Back to listing</span>\n
+        \   </button>\n    <input type=\"hidden\" id=\"timeSlot\" name=\"timeSlot\"\n
+        \       value=\"15\" scope=\"page\" />\n    <input type=\"hidden\" id=\"pid\"
+        name=\"pid\" value=\"2\" />\n    <input type=\"hidden\" id=\"dailyTimings\"
+        name=\"dailyTimings\" value=\"\" />\n    <input type=\"hidden\" aria-hidden=\"true\"
+        value=\"false\" class=\"enable-ERental\" />\n    <input type=\"hidden\" aria-hidden=\"true\"
+        value=\"false\" id=\"isDYPLP\" />\n    <div class=\"unit-timer-block\"></div>\n
+        \   <div class=\"unit-info-mobile d-none\">\n        \n\n\n\n<div class=\"plp-adminfee-container
+        d-lg-none\">\n    <div class=\"plp-admin-fee-banner admin-fee-banner-reserve-top\">\n
+        \       All new rentals subject to one-time $29 admin fee.\n    </div>\n</div>\n<div
+        class=\"mobile-unit-info-container\">\n    <div class=\"mobile-unit-address
+        \">\n        <div class=\"mobile-unit-address1\"></div>\n        <div>\n            <span
+        class=\"mobile-unit-city\"></span>\n            <span class=\"mobile-unit-state-code\"></span>\n
+        \           <span class=\"mobile-unit-postal-code\"></span>\n        </div>\n
+        \   </div>\n    <hr class=\"mobile-unit-separator\">\n    <div class=\"mobile-unit-section-2\">\n
+        \       <div class=\"row\">\n            <div class=\"col-3 size\">\n                4.5&#39;x10&#39;\n\n
+        \               \n            </div>\n            \n\n\n            <div class=\"col-5
+        online-price\">\n                <div class=\"online-price-text\">\n                    Online
+        only price\n                </div>\n                <div class=\"unit-price-currency\">\n
+        \                   \n                        <div class=\"unit-pricing\">\n
+        \                           <span class=\"unit-price label\" data-pricebook-price=\"196.0\"\n
+        \                               data-list-price=\"262.0\" data-min-price=\"107.0\"\n
+        \                               data-unit-id=\"V_101\" data-unit-tier=\"\"
+        data-storeid=\"2\">\n                                <span class=\"unit-price-currency\">\n
+        \                                   $</span><span class=\"price-value\">\n
+        \                                   196</span><span\n                                    class=\"unit-per-month\">/mo</span>\n
+        \                           </span>\n                        </div>\n                        <div
+        class=\"info-message unit-pricing-info\">\n                            Online
+        only price\n                        </div>\n                    \n                </div>\n
+        \           </div>\n            <div class=\"col-4 promotion-content\">\n
+        \               \n                    <div class=\"d-flex\">\n                        <div>\n
+        \                           <img class=\"w-100\" src=\"/on/demandware.static/-/Sites-ps-storefront-catalog/default/dw3c06cb3d/images/promotions/Promo_50Off.svg\"\n
+        \                               alt=\"50% off first month rent\" />\n                        </div>\n
+        \                       <span class=\"about-unit-promo\" data-toggle=\"modal\"
+        data-target=\"#promotionConditions\">\n                        </span>\n                    </div>\n
+        \               \n            </div>\n        </div>\n    </div>\n</div>\n<div
+        class=\"ps-hold-unit-free-message-mobile\"></div>\n\n<div class=\"plp-adminfee-container
+        d-lg-none\">\n    <div class=\"plp-admin-fee-banner admin-fee-banner-reserve-below\">\n
+        \       All new rentals subject to one-time $29 admin fee.\n    </div>\n</div>\n\n
+        \   </div>\n\n    <div class=\"unit-grid\">\n        <div class=\"unit-grid-item\">\n
+        \           <div class=\"unit-name-container\">\n                <span class=\"unit-name
+        label\">\n                    <span class=\"mr-1\">\n                        Small</span>
+        <span class=\"unit-size\">\n                        4.5&#39;x10&#39;</span>\n
+        \               </span>\n                \n            </div>\n\n            <ul
+        class=\"list-group list-group-flush unit-properties-container\">\n                \n
+        \                   \n                        \n                            <li
+        class=\"list-group-item unit-property\">\n                                <i\n
+        \                                   class=\"icon icon-property-property-name
+        property-feature-icon IC_elevator\"></i>\n                                <span
+        class=\"unit-property-value label\">\n                                    Upstairs/elevator</span>\n
+        \                           </li>\n                            \n                    \n
+        \               \n            </ul>\n        </div>\n        <div class=\"unit-grid-item
+        price-promotion-section\">\n            <div class=\"row half-gutters\">\n
+        \               <div class=\"col-6 order-2 order-md-1  no-padding-right-mobile
+        mobile-price-hold-now\"\n                        data-hold-form-url=\"/on/demandware.store/Sites-publicstorage-Site/default/Reservation-GetHoldForm?masterPropertyID=2&amp;unitID=V_101\"\n
+        \                       data-message-close=\"Close\"\n                        data-message-hold=\"Hold\"\n
+        \                       data-message-hold-now=\"Hold Now\"\n                        data-message-continue=\"Continue\"\n
+        \                       data-unit-id=\"V_101\" data-store-id=\"2\" data-unit-size=\"Small
+        4.5'x10'\"\n                        data-gtmData=\"{&quot;features&quot;:[&quot;upstairs_access_via_elevator&quot;],&quot;listprice&quot;:262,&quot;saleprice&quot;:196,&quot;minPrice&quot;:107,&quot;count&quot;:4,&quot;ptm&quot;:false,&quot;id&quot;:&quot;V_101&quot;,&quot;isLarge&quot;:false,&quot;isMedium&quot;:false,&quot;isSmall&quot;:true,&quot;isVehicleUnit&quot;:false,&quot;showVehicleBanner&quot;:false,&quot;isStorageUnit&quot;:true,&quot;unitSize&quot;:&quot;Small&quot;,&quot;electronicLock&quot;:false,&quot;dimension&quot;:&quot;4.5'x10'&quot;,&quot;name&quot;:&quot;Small
+        4.5'x10'&quot;,&quot;tooltip&quot;:null,&quot;filterClasses&quot;:&quot; IsSmall
+        IsStorageUnit &quot;,&quot;storeId&quot;:&quot;2&quot;,&quot;stateCode&quot;:&quot;CA&quot;,&quot;SRPGroupPosition&quot;:null,&quot;SRPDisplayRank&quot;:null,&quot;ProductID&quot;:&quot;2&quot;,&quot;PLPShowUpTo&quot;:null,&quot;promotionId&quot;:&quot;84&quot;,&quot;imageDisplay&quot;:&quot;/images/promotions/Promo_50Off.svg&quot;,&quot;promotionName&quot;:&quot;50%
+        off first month rent&quot;}\"\n                        data-unitIndex=\"3\">\n
+        \                       <div class=\"ps-properties unit-prices\">\n                            <div
+        class=\"unit-pricing-container \n                             \n                             detail-mobile
+        \n                            price-opacity-zero\">\n                                \n
+        \                                   <div class=\"unit-pricing\">\n                                        <span
+        class=\"unit-price label\" data-pricebook-price=\"196.0\"\n                                            data-list-price=\"262.0\"
+        data-min-price=\"107.0\"\n                                            data-unit-id=\"V_101\"
+        data-unit-tier=\"\"\n                                            data-storeid=\"2\">\n
+        \                                           <span class=\"unit-price-currency\">\n
+        \                                               $</span><span\n                                                class=\"price-value\">\n
+        \                                               196\n                                            </span><span
+        class=\"unit-per-month\">/mo</span>\n                                        </span>\n
+        \                                       <span class=\"unit-strike-through-price
+        label\">\n                                            <span>\n                                                $\n
+        \                                               262</span>\n                                        </span>\n
+        \                                   </div>\n                                    <div
+        class=\"info-message unit-pricing-info\">\n                                        Online
+        only price\n                                    </div>\n                                \n\n\n\n
+        \                               \n                                <div class=\"best-price
+        d-none\">\n                                    <div class=\"best-price-label-img\"
+        role=\"img\" title=\"Best Price Label\">\n                                    <span
+        class=\"sr-only\">\n                                        Best Price Label\n
+        \                                   </span>\n                                </div>\n
+        \                           </div>\n                            <div class=\"unit-admin-list-fees
+        d-lg-none\">\n                                + one-time $29 admin fee\n                            </div>\n
+        \                       </div>\n                </div>\n            </div>\n
+        \           <div class=\"col-6 order-1 order-md-2  no-padding-right-mobile\">\n
+        \                   <div class=\"unit-availability-container\">\n                        \n
+        \                           <div class=\"d-inline-block\">\n                                <img
+        class=\"promo-img\"\n                                    src=\"/on/demandware.static/-/Sites-ps-storefront-catalog/default/dw3c06cb3d/images/promotions/Promo_50Off.svg\"\n
+        \                                   alt=\"50% off first month rent\" />\n
+        \                               <span class=\"about-unit-promo\" data-toggle=\"modal\"
+        data-target=\"#promotionModal\">\n                                </span>\n
+        \                           </div>\n                        \n                    </div>\n
+        \           </div>\n        </div>\n    </div>\n    <div class=\"unit-grid-item
+        create-hold\">\n        <div class=\"unit-hold-now-container text-right\">\n
+        \           \n                <button\n                    data-hold-form-url=\"/on/demandware.store/Sites-publicstorage-Site/default/Reservation-GetHoldForm?masterPropertyID=2&amp;unitID=V_101\"\n
+        \                   class=\"ps-btn-green btn-small unit-hold-now-button ps-btn-transparent\"\n
+        \           data-message-close=\"Close\"\n            data-message-hold=\"Hold\"\n
+        \           data-message-hold-now=\"Hold Now\"\n            data-message-continue=\"Continue\"\n
+        \           data-unit-id=\"V_101\" data-store-id=\"2\" data-unit-size=\"Small
+        4.5'x10'\"\n            data-gtmData=\"{&quot;features&quot;:[&quot;upstairs_access_via_elevator&quot;],&quot;listprice&quot;:262,&quot;saleprice&quot;:196,&quot;minPrice&quot;:107,&quot;count&quot;:4,&quot;ptm&quot;:false,&quot;id&quot;:&quot;V_101&quot;,&quot;isLarge&quot;:false,&quot;isMedium&quot;:false,&quot;isSmall&quot;:true,&quot;isVehicleUnit&quot;:false,&quot;showVehicleBanner&quot;:false,&quot;isStorageUnit&quot;:true,&quot;unitSize&quot;:&quot;Small&quot;,&quot;electronicLock&quot;:false,&quot;dimension&quot;:&quot;4.5'x10'&quot;,&quot;name&quot;:&quot;Small
+        4.5'x10'&quot;,&quot;tooltip&quot;:null,&quot;filterClasses&quot;:&quot; IsSmall
         IsStorageUnit &quot;,&quot;storeId&quot;:&quot;2&quot;,&quot;stateCode&quot;:&quot;CA&quot;,&quot;SRPGroupPosition&quot;:null,&quot;SRPDisplayRank&quot;:null,&quot;ProductID&quot;:&quot;2&quot;,&quot;PLPShowUpTo&quot;:null,&quot;promotionId&quot;:&quot;84&quot;,&quot;imageDisplay&quot;:&quot;/images/promotions/Promo_50Off.svg&quot;,&quot;promotionName&quot;:&quot;50%
         off first month rent&quot;}\"\n            data-unitIndex=\"3\"\n            aria-label=\"Hold
         Now\">\n            <span class=\"d-none d-md-block\"> Hold Now</span>\n            \n
@@ -1984,12 +1983,12 @@ http_interactions:
         online-price\">\n                <div class=\"online-price-text\">\n                    Online
         only price\n                </div>\n                <div class=\"unit-price-currency\">\n
         \                   \n                        <div class=\"unit-pricing\">\n
-        \                           <span class=\"unit-price label\" data-pricebook-price=\"253.0\"\n
-        \                               data-list-price=\"337.0\" data-min-price=\"119.0\"\n
+        \                           <span class=\"unit-price label\" data-pricebook-price=\"258.0\"\n
+        \                               data-list-price=\"344.0\" data-min-price=\"107.0\"\n
         \                               data-unit-id=\"V_121\" data-unit-tier=\"\"
         data-storeid=\"2\">\n                                <span class=\"unit-price-currency\">\n
         \                                   $</span><span class=\"price-value\">\n
-        \                                   253</span><span\n                                    class=\"unit-per-month\">/mo</span>\n
+        \                                   258</span><span\n                                    class=\"unit-per-month\">/mo</span>\n
         \                           </span>\n                        </div>\n                        <div
         class=\"info-message unit-pricing-info\">\n                            Online
         only price\n                        </div>\n                    \n                </div>\n
@@ -2024,7 +2023,7 @@ http_interactions:
         \                       data-message-close=\"Close\"\n                        data-message-hold=\"Hold\"\n
         \                       data-message-hold-now=\"Hold Now\"\n                        data-message-continue=\"Continue\"\n
         \                       data-unit-id=\"V_121\" data-store-id=\"2\" data-unit-size=\"Medium
-        7.5'x10'\"\n                        data-gtmData=\"{&quot;features&quot;:[&quot;upstairs_access_via_elevator&quot;],&quot;listprice&quot;:337,&quot;saleprice&quot;:253,&quot;minPrice&quot;:119,&quot;count&quot;:1,&quot;ptm&quot;:false,&quot;id&quot;:&quot;V_121&quot;,&quot;isLarge&quot;:false,&quot;isMedium&quot;:true,&quot;isSmall&quot;:false,&quot;isVehicleUnit&quot;:false,&quot;showVehicleBanner&quot;:false,&quot;isStorageUnit&quot;:true,&quot;unitSize&quot;:&quot;Medium&quot;,&quot;electronicLock&quot;:false,&quot;dimension&quot;:&quot;7.5'x10'&quot;,&quot;name&quot;:&quot;Medium
+        7.5'x10'\"\n                        data-gtmData=\"{&quot;features&quot;:[&quot;upstairs_access_via_elevator&quot;],&quot;listprice&quot;:344,&quot;saleprice&quot;:258,&quot;minPrice&quot;:107,&quot;count&quot;:1,&quot;ptm&quot;:false,&quot;id&quot;:&quot;V_121&quot;,&quot;isLarge&quot;:false,&quot;isMedium&quot;:true,&quot;isSmall&quot;:false,&quot;isVehicleUnit&quot;:false,&quot;showVehicleBanner&quot;:false,&quot;isStorageUnit&quot;:true,&quot;unitSize&quot;:&quot;Medium&quot;,&quot;electronicLock&quot;:false,&quot;dimension&quot;:&quot;7.5'x10'&quot;,&quot;name&quot;:&quot;Medium
         7.5'x10'&quot;,&quot;tooltip&quot;:&quot;#ps-product-tooltip-Size-Guide-Medium-7.5x10&quot;,&quot;filterClasses&quot;:&quot;
         IsMedium IsStorageUnit &quot;,&quot;storeId&quot;:&quot;2&quot;,&quot;stateCode&quot;:&quot;CA&quot;,&quot;SRPGroupPosition&quot;:null,&quot;SRPDisplayRank&quot;:null,&quot;ProductID&quot;:&quot;3&quot;,&quot;PLPShowUpTo&quot;:null,&quot;promotionId&quot;:&quot;84&quot;,&quot;imageDisplay&quot;:&quot;/images/promotions/Promo_50Off.svg&quot;,&quot;promotionName&quot;:&quot;50%
         off first month rent&quot;}\"\n                        data-unitIndex=\"4\">\n
@@ -2032,16 +2031,16 @@ http_interactions:
         class=\"unit-pricing-container \n                             \n                             detail-mobile
         \n                            price-opacity-zero\">\n                                \n
         \                                   <div class=\"unit-pricing\">\n                                        <span
-        class=\"unit-price label\" data-pricebook-price=\"253.0\"\n                                            data-list-price=\"337.0\"
-        data-min-price=\"119.0\"\n                                            data-unit-id=\"V_121\"
+        class=\"unit-price label\" data-pricebook-price=\"258.0\"\n                                            data-list-price=\"344.0\"
+        data-min-price=\"107.0\"\n                                            data-unit-id=\"V_121\"
         data-unit-tier=\"\"\n                                            data-storeid=\"2\">\n
         \                                           <span class=\"unit-price-currency\">\n
         \                                               $</span><span\n                                                class=\"price-value\">\n
-        \                                               253\n                                            </span><span
+        \                                               258\n                                            </span><span
         class=\"unit-per-month\">/mo</span>\n                                        </span>\n
         \                                       <span class=\"unit-strike-through-price
         label\">\n                                            <span>\n                                                $\n
-        \                                               337</span>\n                                        </span>\n
+        \                                               344</span>\n                                        </span>\n
         \                                   </div>\n                                    <div
         class=\"info-message unit-pricing-info\">\n                                        Online
         only price\n                                    </div>\n                                \n\n\n\n
@@ -2068,7 +2067,7 @@ http_interactions:
         \           data-message-close=\"Close\"\n            data-message-hold=\"Hold\"\n
         \           data-message-hold-now=\"Hold Now\"\n            data-message-continue=\"Continue\"\n
         \           data-unit-id=\"V_121\" data-store-id=\"2\" data-unit-size=\"Medium
-        7.5'x10'\"\n            data-gtmData=\"{&quot;features&quot;:[&quot;upstairs_access_via_elevator&quot;],&quot;listprice&quot;:337,&quot;saleprice&quot;:253,&quot;minPrice&quot;:119,&quot;count&quot;:1,&quot;ptm&quot;:false,&quot;id&quot;:&quot;V_121&quot;,&quot;isLarge&quot;:false,&quot;isMedium&quot;:true,&quot;isSmall&quot;:false,&quot;isVehicleUnit&quot;:false,&quot;showVehicleBanner&quot;:false,&quot;isStorageUnit&quot;:true,&quot;unitSize&quot;:&quot;Medium&quot;,&quot;electronicLock&quot;:false,&quot;dimension&quot;:&quot;7.5'x10'&quot;,&quot;name&quot;:&quot;Medium
+        7.5'x10'\"\n            data-gtmData=\"{&quot;features&quot;:[&quot;upstairs_access_via_elevator&quot;],&quot;listprice&quot;:344,&quot;saleprice&quot;:258,&quot;minPrice&quot;:107,&quot;count&quot;:1,&quot;ptm&quot;:false,&quot;id&quot;:&quot;V_121&quot;,&quot;isLarge&quot;:false,&quot;isMedium&quot;:true,&quot;isSmall&quot;:false,&quot;isVehicleUnit&quot;:false,&quot;showVehicleBanner&quot;:false,&quot;isStorageUnit&quot;:true,&quot;unitSize&quot;:&quot;Medium&quot;,&quot;electronicLock&quot;:false,&quot;dimension&quot;:&quot;7.5'x10'&quot;,&quot;name&quot;:&quot;Medium
         7.5'x10'&quot;,&quot;tooltip&quot;:&quot;#ps-product-tooltip-Size-Guide-Medium-7.5x10&quot;,&quot;filterClasses&quot;:&quot;
         IsMedium IsStorageUnit &quot;,&quot;storeId&quot;:&quot;2&quot;,&quot;stateCode&quot;:&quot;CA&quot;,&quot;SRPGroupPosition&quot;:null,&quot;SRPDisplayRank&quot;:null,&quot;ProductID&quot;:&quot;3&quot;,&quot;PLPShowUpTo&quot;:null,&quot;promotionId&quot;:&quot;84&quot;,&quot;imageDisplay&quot;:&quot;/images/promotions/Promo_50Off.svg&quot;,&quot;promotionName&quot;:&quot;50%
         off first month rent&quot;}\"\n            data-unitIndex=\"4\"\n            aria-label=\"Hold
@@ -2112,11 +2111,11 @@ http_interactions:
         class=\"online-price-text\">\n                    Online only price\n                </div>\n
         \               <div class=\"unit-price-currency\">\n                    \n
         \                       <div class=\"unit-pricing\">\n                            <span
-        class=\"unit-price label\" data-pricebook-price=\"261.0\"\n                                data-list-price=\"348.0\"
-        data-min-price=\"119.0\"\n                                data-unit-id=\"V_124\"
+        class=\"unit-price label\" data-pricebook-price=\"267.0\"\n                                data-list-price=\"355.0\"
+        data-min-price=\"107.0\"\n                                data-unit-id=\"V_124\"
         data-unit-tier=\"\" data-storeid=\"2\">\n                                <span
         class=\"unit-price-currency\">\n                                    $</span><span
-        class=\"price-value\">\n                                    261</span><span\n
+        class=\"price-value\">\n                                    267</span><span\n
         \                                   class=\"unit-per-month\">/mo</span>\n
         \                           </span>\n                        </div>\n                        <div
         class=\"info-message unit-pricing-info\">\n                            Online
@@ -2145,7 +2144,7 @@ http_interactions:
         \                       data-message-close=\"Close\"\n                        data-message-hold=\"Hold\"\n
         \                       data-message-hold-now=\"Hold Now\"\n                        data-message-continue=\"Continue\"\n
         \                       data-unit-id=\"V_124\" data-store-id=\"2\" data-unit-size=\"Medium
-        8'x10'\"\n                        data-gtmData=\"{&quot;features&quot;:[&quot;upstairs_access_via_elevator&quot;],&quot;listprice&quot;:348,&quot;saleprice&quot;:261,&quot;minPrice&quot;:119,&quot;count&quot;:2,&quot;ptm&quot;:false,&quot;id&quot;:&quot;V_124&quot;,&quot;isLarge&quot;:false,&quot;isMedium&quot;:true,&quot;isSmall&quot;:false,&quot;isVehicleUnit&quot;:false,&quot;showVehicleBanner&quot;:false,&quot;isStorageUnit&quot;:true,&quot;unitSize&quot;:&quot;Medium&quot;,&quot;electronicLock&quot;:false,&quot;dimension&quot;:&quot;8'x10'&quot;,&quot;name&quot;:&quot;Medium
+        8'x10'\"\n                        data-gtmData=\"{&quot;features&quot;:[&quot;upstairs_access_via_elevator&quot;],&quot;listprice&quot;:355,&quot;saleprice&quot;:267,&quot;minPrice&quot;:107,&quot;count&quot;:2,&quot;ptm&quot;:false,&quot;id&quot;:&quot;V_124&quot;,&quot;isLarge&quot;:false,&quot;isMedium&quot;:true,&quot;isSmall&quot;:false,&quot;isVehicleUnit&quot;:false,&quot;showVehicleBanner&quot;:false,&quot;isStorageUnit&quot;:true,&quot;unitSize&quot;:&quot;Medium&quot;,&quot;electronicLock&quot;:false,&quot;dimension&quot;:&quot;8'x10'&quot;,&quot;name&quot;:&quot;Medium
         8'x10'&quot;,&quot;tooltip&quot;:null,&quot;filterClasses&quot;:&quot; IsMedium
         IsStorageUnit &quot;,&quot;storeId&quot;:&quot;2&quot;,&quot;stateCode&quot;:&quot;CA&quot;,&quot;SRPGroupPosition&quot;:null,&quot;SRPDisplayRank&quot;:null,&quot;ProductID&quot;:&quot;3&quot;,&quot;PLPShowUpTo&quot;:null}\"\n
         \                       data-unitIndex=\"5\">\n                        <div
@@ -2153,16 +2152,16 @@ http_interactions:
         \n                             \n                             detail-mobile
         \n                            price-opacity-zero\">\n                                \n
         \                                   <div class=\"unit-pricing\">\n                                        <span
-        class=\"unit-price label\" data-pricebook-price=\"261.0\"\n                                            data-list-price=\"348.0\"
-        data-min-price=\"119.0\"\n                                            data-unit-id=\"V_124\"
+        class=\"unit-price label\" data-pricebook-price=\"267.0\"\n                                            data-list-price=\"355.0\"
+        data-min-price=\"107.0\"\n                                            data-unit-id=\"V_124\"
         data-unit-tier=\"\"\n                                            data-storeid=\"2\">\n
         \                                           <span class=\"unit-price-currency\">\n
         \                                               $</span><span\n                                                class=\"price-value\">\n
-        \                                               261\n                                            </span><span
+        \                                               267\n                                            </span><span
         class=\"unit-per-month\">/mo</span>\n                                        </span>\n
         \                                       <span class=\"unit-strike-through-price
         label\">\n                                            <span>\n                                                $\n
-        \                                               348</span>\n                                        </span>\n
+        \                                               355</span>\n                                        </span>\n
         \                                   </div>\n                                    <div
         class=\"info-message unit-pricing-info\">\n                                        Online
         only price\n                                    </div>\n                                \n\n\n\n
@@ -2190,7 +2189,7 @@ http_interactions:
         \           data-message-close=\"Close\"\n            data-message-hold=\"Hold\"\n
         \           data-message-hold-now=\"Hold Now\"\n            data-message-continue=\"Continue\"\n
         \           data-unit-id=\"V_124\" data-store-id=\"2\" data-unit-size=\"Medium
-        8'x10'\"\n            data-gtmData=\"{&quot;features&quot;:[&quot;upstairs_access_via_elevator&quot;],&quot;listprice&quot;:348,&quot;saleprice&quot;:261,&quot;minPrice&quot;:119,&quot;count&quot;:2,&quot;ptm&quot;:false,&quot;id&quot;:&quot;V_124&quot;,&quot;isLarge&quot;:false,&quot;isMedium&quot;:true,&quot;isSmall&quot;:false,&quot;isVehicleUnit&quot;:false,&quot;showVehicleBanner&quot;:false,&quot;isStorageUnit&quot;:true,&quot;unitSize&quot;:&quot;Medium&quot;,&quot;electronicLock&quot;:false,&quot;dimension&quot;:&quot;8'x10'&quot;,&quot;name&quot;:&quot;Medium
+        8'x10'\"\n            data-gtmData=\"{&quot;features&quot;:[&quot;upstairs_access_via_elevator&quot;],&quot;listprice&quot;:355,&quot;saleprice&quot;:267,&quot;minPrice&quot;:107,&quot;count&quot;:2,&quot;ptm&quot;:false,&quot;id&quot;:&quot;V_124&quot;,&quot;isLarge&quot;:false,&quot;isMedium&quot;:true,&quot;isSmall&quot;:false,&quot;isVehicleUnit&quot;:false,&quot;showVehicleBanner&quot;:false,&quot;isStorageUnit&quot;:true,&quot;unitSize&quot;:&quot;Medium&quot;,&quot;electronicLock&quot;:false,&quot;dimension&quot;:&quot;8'x10'&quot;,&quot;name&quot;:&quot;Medium
         8'x10'&quot;,&quot;tooltip&quot;:null,&quot;filterClasses&quot;:&quot; IsMedium
         IsStorageUnit &quot;,&quot;storeId&quot;:&quot;2&quot;,&quot;stateCode&quot;:&quot;CA&quot;,&quot;SRPGroupPosition&quot;:null,&quot;SRPDisplayRank&quot;:null,&quot;ProductID&quot;:&quot;3&quot;,&quot;PLPShowUpTo&quot;:null}\"\n
         \           data-unitIndex=\"5\"\n            aria-label=\"Hold Now\">\n            <span
@@ -2232,12 +2231,12 @@ http_interactions:
         online-price\">\n                <div class=\"online-price-text\">\n                    Online
         only price\n                </div>\n                <div class=\"unit-price-currency\">\n
         \                   \n                        <div class=\"unit-pricing\">\n
-        \                           <span class=\"unit-price label\" data-pricebook-price=\"291.0\"\n
-        \                               data-list-price=\"387.0\" data-min-price=\"119.0\"\n
+        \                           <span class=\"unit-price label\" data-pricebook-price=\"305.0\"\n
+        \                               data-list-price=\"407.0\" data-min-price=\"107.0\"\n
         \                               data-unit-id=\"V_126\" data-unit-tier=\"\"
         data-storeid=\"2\">\n                                <span class=\"unit-price-currency\">\n
         \                                   $</span><span class=\"price-value\">\n
-        \                                   291</span><span\n                                    class=\"unit-per-month\">/mo</span>\n
+        \                                   305</span><span\n                                    class=\"unit-per-month\">/mo</span>\n
         \                           </span>\n                        </div>\n                        <div
         class=\"info-message unit-pricing-info\">\n                            Online
         only price\n                        </div>\n                    \n                </div>\n
@@ -2270,7 +2269,7 @@ http_interactions:
         \                       data-message-close=\"Close\"\n                        data-message-hold=\"Hold\"\n
         \                       data-message-hold-now=\"Hold Now\"\n                        data-message-continue=\"Continue\"\n
         \                       data-unit-id=\"V_126\" data-store-id=\"2\" data-unit-size=\"Medium
-        9'x10'\"\n                        data-gtmData=\"{&quot;features&quot;:[&quot;upstairs_access_via_elevator&quot;],&quot;listprice&quot;:387,&quot;saleprice&quot;:291,&quot;minPrice&quot;:119,&quot;count&quot;:1,&quot;ptm&quot;:false,&quot;id&quot;:&quot;V_126&quot;,&quot;isLarge&quot;:false,&quot;isMedium&quot;:true,&quot;isSmall&quot;:false,&quot;isVehicleUnit&quot;:false,&quot;showVehicleBanner&quot;:false,&quot;isStorageUnit&quot;:true,&quot;unitSize&quot;:&quot;Medium&quot;,&quot;electronicLock&quot;:false,&quot;dimension&quot;:&quot;9'x10'&quot;,&quot;name&quot;:&quot;Medium
+        9'x10'\"\n                        data-gtmData=\"{&quot;features&quot;:[&quot;upstairs_access_via_elevator&quot;],&quot;listprice&quot;:407,&quot;saleprice&quot;:305,&quot;minPrice&quot;:107,&quot;count&quot;:1,&quot;ptm&quot;:false,&quot;id&quot;:&quot;V_126&quot;,&quot;isLarge&quot;:false,&quot;isMedium&quot;:true,&quot;isSmall&quot;:false,&quot;isVehicleUnit&quot;:false,&quot;showVehicleBanner&quot;:false,&quot;isStorageUnit&quot;:true,&quot;unitSize&quot;:&quot;Medium&quot;,&quot;electronicLock&quot;:false,&quot;dimension&quot;:&quot;9'x10'&quot;,&quot;name&quot;:&quot;Medium
         9'x10'&quot;,&quot;tooltip&quot;:null,&quot;filterClasses&quot;:&quot; IsMedium
         IsStorageUnit &quot;,&quot;storeId&quot;:&quot;2&quot;,&quot;stateCode&quot;:&quot;CA&quot;,&quot;SRPGroupPosition&quot;:null,&quot;SRPDisplayRank&quot;:null,&quot;ProductID&quot;:&quot;4&quot;,&quot;PLPShowUpTo&quot;:null,&quot;promotionId&quot;:&quot;84&quot;,&quot;imageDisplay&quot;:&quot;/images/promotions/Promo_50Off.svg&quot;,&quot;promotionName&quot;:&quot;50%
         off first month rent&quot;}\"\n                        data-unitIndex=\"6\">\n
@@ -2278,16 +2277,16 @@ http_interactions:
         class=\"unit-pricing-container \n                             \n                             detail-mobile
         \n                            price-opacity-zero\">\n                                \n
         \                                   <div class=\"unit-pricing\">\n                                        <span
-        class=\"unit-price label\" data-pricebook-price=\"291.0\"\n                                            data-list-price=\"387.0\"
-        data-min-price=\"119.0\"\n                                            data-unit-id=\"V_126\"
+        class=\"unit-price label\" data-pricebook-price=\"305.0\"\n                                            data-list-price=\"407.0\"
+        data-min-price=\"107.0\"\n                                            data-unit-id=\"V_126\"
         data-unit-tier=\"\"\n                                            data-storeid=\"2\">\n
         \                                           <span class=\"unit-price-currency\">\n
         \                                               $</span><span\n                                                class=\"price-value\">\n
-        \                                               291\n                                            </span><span
+        \                                               305\n                                            </span><span
         class=\"unit-per-month\">/mo</span>\n                                        </span>\n
         \                                       <span class=\"unit-strike-through-price
         label\">\n                                            <span>\n                                                $\n
-        \                                               387</span>\n                                        </span>\n
+        \                                               407</span>\n                                        </span>\n
         \                                   </div>\n                                    <div
         class=\"info-message unit-pricing-info\">\n                                        Online
         only price\n                                    </div>\n                                \n\n\n\n
@@ -2314,7 +2313,7 @@ http_interactions:
         \           data-message-close=\"Close\"\n            data-message-hold=\"Hold\"\n
         \           data-message-hold-now=\"Hold Now\"\n            data-message-continue=\"Continue\"\n
         \           data-unit-id=\"V_126\" data-store-id=\"2\" data-unit-size=\"Medium
-        9'x10'\"\n            data-gtmData=\"{&quot;features&quot;:[&quot;upstairs_access_via_elevator&quot;],&quot;listprice&quot;:387,&quot;saleprice&quot;:291,&quot;minPrice&quot;:119,&quot;count&quot;:1,&quot;ptm&quot;:false,&quot;id&quot;:&quot;V_126&quot;,&quot;isLarge&quot;:false,&quot;isMedium&quot;:true,&quot;isSmall&quot;:false,&quot;isVehicleUnit&quot;:false,&quot;showVehicleBanner&quot;:false,&quot;isStorageUnit&quot;:true,&quot;unitSize&quot;:&quot;Medium&quot;,&quot;electronicLock&quot;:false,&quot;dimension&quot;:&quot;9'x10'&quot;,&quot;name&quot;:&quot;Medium
+        9'x10'\"\n            data-gtmData=\"{&quot;features&quot;:[&quot;upstairs_access_via_elevator&quot;],&quot;listprice&quot;:407,&quot;saleprice&quot;:305,&quot;minPrice&quot;:107,&quot;count&quot;:1,&quot;ptm&quot;:false,&quot;id&quot;:&quot;V_126&quot;,&quot;isLarge&quot;:false,&quot;isMedium&quot;:true,&quot;isSmall&quot;:false,&quot;isVehicleUnit&quot;:false,&quot;showVehicleBanner&quot;:false,&quot;isStorageUnit&quot;:true,&quot;unitSize&quot;:&quot;Medium&quot;,&quot;electronicLock&quot;:false,&quot;dimension&quot;:&quot;9'x10'&quot;,&quot;name&quot;:&quot;Medium
         9'x10'&quot;,&quot;tooltip&quot;:null,&quot;filterClasses&quot;:&quot; IsMedium
         IsStorageUnit &quot;,&quot;storeId&quot;:&quot;2&quot;,&quot;stateCode&quot;:&quot;CA&quot;,&quot;SRPGroupPosition&quot;:null,&quot;SRPDisplayRank&quot;:null,&quot;ProductID&quot;:&quot;4&quot;,&quot;PLPShowUpTo&quot;:null,&quot;promotionId&quot;:&quot;84&quot;,&quot;imageDisplay&quot;:&quot;/images/promotions/Promo_50Off.svg&quot;,&quot;promotionName&quot;:&quot;50%
         off first month rent&quot;}\"\n            data-unitIndex=\"6\"\n            aria-label=\"Hold
@@ -2359,12 +2358,12 @@ http_interactions:
         online-price\">\n                <div class=\"online-price-text\">\n                    Online
         only price\n                </div>\n                <div class=\"unit-price-currency\">\n
         \                   \n                        <div class=\"unit-pricing\">\n
-        \                           <span class=\"unit-price label\" data-pricebook-price=\"301.0\"\n
-        \                               data-list-price=\"401.0\" data-min-price=\"119.0\"\n
+        \                           <span class=\"unit-price label\" data-pricebook-price=\"316.0\"\n
+        \                               data-list-price=\"421.0\" data-min-price=\"107.0\"\n
         \                               data-unit-id=\"V_76\" data-unit-tier=\"\"
         data-storeid=\"2\">\n                                <span class=\"unit-price-currency\">\n
         \                                   $</span><span class=\"price-value\">\n
-        \                                   301</span><span\n                                    class=\"unit-per-month\">/mo</span>\n
+        \                                   316</span><span\n                                    class=\"unit-per-month\">/mo</span>\n
         \                           </span>\n                        </div>\n                        <div
         class=\"info-message unit-pricing-info\">\n                            Online
         only price\n                        </div>\n                    \n                </div>\n
@@ -2399,7 +2398,7 @@ http_interactions:
         \                       data-message-close=\"Close\"\n                        data-message-hold=\"Hold\"\n
         \                       data-message-hold-now=\"Hold Now\"\n                        data-message-continue=\"Continue\"\n
         \                       data-unit-id=\"V_76\" data-store-id=\"2\" data-unit-size=\"Medium
-        10'x10'\"\n                        data-gtmData=\"{&quot;features&quot;:[&quot;upstairs_access_via_elevator&quot;],&quot;listprice&quot;:401,&quot;saleprice&quot;:301,&quot;minPrice&quot;:119,&quot;count&quot;:10,&quot;ptm&quot;:false,&quot;id&quot;:&quot;V_76&quot;,&quot;isLarge&quot;:false,&quot;isMedium&quot;:true,&quot;isSmall&quot;:false,&quot;isVehicleUnit&quot;:false,&quot;showVehicleBanner&quot;:false,&quot;isStorageUnit&quot;:true,&quot;unitSize&quot;:&quot;Medium&quot;,&quot;electronicLock&quot;:false,&quot;dimension&quot;:&quot;10'x10'&quot;,&quot;name&quot;:&quot;Medium
+        10'x10'\"\n                        data-gtmData=\"{&quot;features&quot;:[&quot;upstairs_access_via_elevator&quot;],&quot;listprice&quot;:421,&quot;saleprice&quot;:316,&quot;minPrice&quot;:107,&quot;count&quot;:12,&quot;ptm&quot;:false,&quot;id&quot;:&quot;V_76&quot;,&quot;isLarge&quot;:false,&quot;isMedium&quot;:true,&quot;isSmall&quot;:false,&quot;isVehicleUnit&quot;:false,&quot;showVehicleBanner&quot;:false,&quot;isStorageUnit&quot;:true,&quot;unitSize&quot;:&quot;Medium&quot;,&quot;electronicLock&quot;:false,&quot;dimension&quot;:&quot;10'x10'&quot;,&quot;name&quot;:&quot;Medium
         10'x10'&quot;,&quot;tooltip&quot;:&quot;#ps-product-tooltip-Size-Guide-Medium-10x10&quot;,&quot;filterClasses&quot;:&quot;
         IsMedium IsStorageUnit &quot;,&quot;storeId&quot;:&quot;2&quot;,&quot;stateCode&quot;:&quot;CA&quot;,&quot;SRPGroupPosition&quot;:null,&quot;SRPDisplayRank&quot;:null,&quot;ProductID&quot;:&quot;4&quot;,&quot;PLPShowUpTo&quot;:null,&quot;promotionId&quot;:&quot;132&quot;,&quot;imageDisplay&quot;:&quot;/images/promotions/Promo_$1first_month.svg&quot;,&quot;promotionName&quot;:&quot;$1
         first month rent&quot;}\"\n                        data-unitIndex=\"7\">\n
@@ -2407,16 +2406,16 @@ http_interactions:
         class=\"unit-pricing-container \n                             \n                             detail-mobile
         \n                            price-opacity-zero\">\n                                \n
         \                                   <div class=\"unit-pricing\">\n                                        <span
-        class=\"unit-price label\" data-pricebook-price=\"301.0\"\n                                            data-list-price=\"401.0\"
-        data-min-price=\"119.0\"\n                                            data-unit-id=\"V_76\"
+        class=\"unit-price label\" data-pricebook-price=\"316.0\"\n                                            data-list-price=\"421.0\"
+        data-min-price=\"107.0\"\n                                            data-unit-id=\"V_76\"
         data-unit-tier=\"\"\n                                            data-storeid=\"2\">\n
         \                                           <span class=\"unit-price-currency\">\n
         \                                               $</span><span\n                                                class=\"price-value\">\n
-        \                                               301\n                                            </span><span
+        \                                               316\n                                            </span><span
         class=\"unit-per-month\">/mo</span>\n                                        </span>\n
         \                                       <span class=\"unit-strike-through-price
         label\">\n                                            <span>\n                                                $\n
-        \                                               401</span>\n                                        </span>\n
+        \                                               421</span>\n                                        </span>\n
         \                                   </div>\n                                    <div
         class=\"info-message unit-pricing-info\">\n                                        Online
         only price\n                                    </div>\n                                \n\n\n\n
@@ -2443,7 +2442,7 @@ http_interactions:
         \           data-message-close=\"Close\"\n            data-message-hold=\"Hold\"\n
         \           data-message-hold-now=\"Hold Now\"\n            data-message-continue=\"Continue\"\n
         \           data-unit-id=\"V_76\" data-store-id=\"2\" data-unit-size=\"Medium
-        10'x10'\"\n            data-gtmData=\"{&quot;features&quot;:[&quot;upstairs_access_via_elevator&quot;],&quot;listprice&quot;:401,&quot;saleprice&quot;:301,&quot;minPrice&quot;:119,&quot;count&quot;:10,&quot;ptm&quot;:false,&quot;id&quot;:&quot;V_76&quot;,&quot;isLarge&quot;:false,&quot;isMedium&quot;:true,&quot;isSmall&quot;:false,&quot;isVehicleUnit&quot;:false,&quot;showVehicleBanner&quot;:false,&quot;isStorageUnit&quot;:true,&quot;unitSize&quot;:&quot;Medium&quot;,&quot;electronicLock&quot;:false,&quot;dimension&quot;:&quot;10'x10'&quot;,&quot;name&quot;:&quot;Medium
+        10'x10'\"\n            data-gtmData=\"{&quot;features&quot;:[&quot;upstairs_access_via_elevator&quot;],&quot;listprice&quot;:421,&quot;saleprice&quot;:316,&quot;minPrice&quot;:107,&quot;count&quot;:12,&quot;ptm&quot;:false,&quot;id&quot;:&quot;V_76&quot;,&quot;isLarge&quot;:false,&quot;isMedium&quot;:true,&quot;isSmall&quot;:false,&quot;isVehicleUnit&quot;:false,&quot;showVehicleBanner&quot;:false,&quot;isStorageUnit&quot;:true,&quot;unitSize&quot;:&quot;Medium&quot;,&quot;electronicLock&quot;:false,&quot;dimension&quot;:&quot;10'x10'&quot;,&quot;name&quot;:&quot;Medium
         10'x10'&quot;,&quot;tooltip&quot;:&quot;#ps-product-tooltip-Size-Guide-Medium-10x10&quot;,&quot;filterClasses&quot;:&quot;
         IsMedium IsStorageUnit &quot;,&quot;storeId&quot;:&quot;2&quot;,&quot;stateCode&quot;:&quot;CA&quot;,&quot;SRPGroupPosition&quot;:null,&quot;SRPDisplayRank&quot;:null,&quot;ProductID&quot;:&quot;4&quot;,&quot;PLPShowUpTo&quot;:null,&quot;promotionId&quot;:&quot;132&quot;,&quot;imageDisplay&quot;:&quot;/images/promotions/Promo_$1first_month.svg&quot;,&quot;promotionName&quot;:&quot;$1
         first month rent&quot;}\"\n            data-unitIndex=\"7\"\n            aria-label=\"Hold
@@ -2861,7 +2860,7 @@ http_interactions:
         - Los Angeles/StMonica-Mansfield&quot;,&quot;storeAddress&quot;:&quot;6840
         Santa Monica Blvd&quot;,&quot;city&quot;:&quot;Los Angeles&quot;,&quot;stateCode&quot;:&quot;CA&quot;,&quot;postalCode&quot;:&quot;90038&quot;,&quot;storePhone&quot;:&quot;&quot;,&quot;plpLinkLabel&quot;:&quot;See
         all available units at this property&quot;,&quot;minRateLabel&quot;:&quot;Units
-        starting from&quot;,&quot;plpLink&quot;:&quot;/self-storage-ca-los-angeles/12.html&quot;,&quot;minRate&quot;:&quot;81&quot;,&quot;directionLabel&quot;:&quot;Get
+        starting from&quot;,&quot;plpLink&quot;:&quot;/self-storage-ca-los-angeles/12.html&quot;,&quot;minRate&quot;:&quot;85&quot;,&quot;directionLabel&quot;:&quot;Get
         directions&quot;},&quot;iconUrl&quot;:&quot;https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png&quot;,&quot;isSooStoneCookieFound&quot;:false}\"
         />\n        <input type=\"hidden\" aria-hidden=\"true\" id=\"noUnitAvailableLabel\"\n
         \           value=\"Available units that match your search criteria are limited
@@ -2872,7 +2871,7 @@ http_interactions:
         - Hollywood/Cole-Willoughby Ave&quot;,&quot;storeAddress&quot;:&quot;6202
         Willoughby Ave&quot;,&quot;city&quot;:&quot;Los Angeles&quot;,&quot;stateCode&quot;:&quot;CA&quot;,&quot;postalCode&quot;:&quot;90038&quot;,&quot;storePhone&quot;:&quot;&quot;,&quot;plpLinkLabel&quot;:&quot;See
         all available units at this property&quot;,&quot;minRateLabel&quot;:&quot;Units
-        starting from&quot;,&quot;plpLink&quot;:&quot;/self-storage-ca-los-angeles/8.html&quot;,&quot;minRate&quot;:&quot;106&quot;,&quot;directionLabel&quot;:&quot;Get
+        starting from&quot;,&quot;plpLink&quot;:&quot;/self-storage-ca-los-angeles/8.html&quot;,&quot;minRate&quot;:&quot;204&quot;,&quot;directionLabel&quot;:&quot;Get
         directions&quot;},&quot;iconUrl&quot;:&quot;https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png&quot;,&quot;isSooStoneCookieFound&quot;:false}\"
         />\n        <input type=\"hidden\" aria-hidden=\"true\" id=\"noUnitAvailableLabel\"\n
         \           value=\"Available units that match your search criteria are limited
@@ -2883,7 +2882,7 @@ http_interactions:
         - Los Angeles/ W.Pico - Crenshaw&quot;,&quot;storeAddress&quot;:&quot;4174
         W Pico Blvd&quot;,&quot;city&quot;:&quot;Los Angeles&quot;,&quot;stateCode&quot;:&quot;CA&quot;,&quot;postalCode&quot;:&quot;90019&quot;,&quot;storePhone&quot;:&quot;&quot;,&quot;plpLinkLabel&quot;:&quot;See
         all available units at this property&quot;,&quot;minRateLabel&quot;:&quot;Units
-        starting from&quot;,&quot;plpLink&quot;:&quot;/self-storage-ca-los-angeles/2228.html&quot;,&quot;minRate&quot;:&quot;72&quot;,&quot;directionLabel&quot;:&quot;Get
+        starting from&quot;,&quot;plpLink&quot;:&quot;/self-storage-ca-los-angeles/2228.html&quot;,&quot;minRate&quot;:&quot;79&quot;,&quot;directionLabel&quot;:&quot;Get
         directions&quot;},&quot;iconUrl&quot;:&quot;https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png&quot;,&quot;isSooStoneCookieFound&quot;:false}\"
         />\n        <input type=\"hidden\" aria-hidden=\"true\" id=\"noUnitAvailableLabel\"\n
         \           value=\"Available units that match your search criteria are limited
@@ -2894,7 +2893,7 @@ http_interactions:
         - LA / Silverlake - Virgil&quot;,&quot;storeAddress&quot;:&quot;3636 Beverly
         Blvd&quot;,&quot;city&quot;:&quot;Los Angeles&quot;,&quot;stateCode&quot;:&quot;CA&quot;,&quot;postalCode&quot;:&quot;90004&quot;,&quot;storePhone&quot;:&quot;&quot;,&quot;plpLinkLabel&quot;:&quot;See
         all available units at this property&quot;,&quot;minRateLabel&quot;:&quot;Units
-        starting from&quot;,&quot;plpLink&quot;:&quot;/self-storage-ca-los-angeles/87.html&quot;,&quot;minRate&quot;:&quot;50&quot;,&quot;directionLabel&quot;:&quot;Get
+        starting from&quot;,&quot;plpLink&quot;:&quot;/self-storage-ca-los-angeles/87.html&quot;,&quot;minRate&quot;:&quot;52&quot;,&quot;directionLabel&quot;:&quot;Get
         directions&quot;},&quot;iconUrl&quot;:&quot;https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png&quot;,&quot;isSooStoneCookieFound&quot;:false}\"
         />\n        <input type=\"hidden\" aria-hidden=\"true\" id=\"noUnitAvailableLabel\"\n
         \           value=\"Available units that match your search criteria are limited
@@ -3032,7 +3031,7 @@ http_interactions:
         <i class=\"tick\"></i>\r\n\t\t<span>Well-Lit Facilities</span>\r\n\t</li>\r\n</ul>\n
         \   </div> <!-- End content-asset -->\n\n\n\n</div>\n</div>\n\n<div id=\"PLPReviews\"
         class=\"ps-card ps-reviews--card\">\n<h3 class=\"ps-text-navy-blue ps-heading-20-bold
-        mb-3\">\nReviews\n<span class=\"reviews-count\">(\n498)</span>\n</h3>\n<div
+        mb-3\">\nReviews\n<span class=\"reviews-count\">(\n499)</span>\n</h3>\n<div
         class=\"ps-reviews--wrapper\">\n    \n        <div class=\"ps-reviews--review-item\">\n
         \           <div class=\"d-flex justify-content-between align-items-center
         ps-reviews--review-item-header\">\n                <div class=\"d-flex flex-column
@@ -3040,10 +3039,31 @@ http_interactions:
         \                       <div class=\"d-flex justify-content-between\">\n                            \n
         \                           <span class=\"star-rating-wrap\">\n    \n        \n
         \           <i class=\"ps-star\"></i>\n        \n    \n        \n            <i
-        class=\"ps-star\"></i>\n        \n    \n        \n            <i class=\"ps-star\"></i>\n
-        \       \n    \n        \n            <i class=\"ps-star\"></i>\n        \n
-        \   \n        \n            <i class=\"ps-star\"></i>\n        \n    \n</span>\n
+        class=\"ps-star-empty\"></i>\n        \n    \n        \n            <i class=\"ps-star-empty\"></i>\n
+        \       \n    \n        \n            <i class=\"ps-star-empty\"></i>\n        \n
+        \   \n        \n            <i class=\"ps-star-empty\"></i>\n        \n    \n</span>\n
         \                           <div class=\"ps-reviews--review-date\">\n                                November
+        27, 2024\n                            </div>\n                        </div>\n\n
+        \                       <div class=\"ps-reviews--review-user-details \">\n
+        \                           <span>\n                                Google</span>\n
+        \                           <span>\n                                Public
+        Storage\n                            </span>\n                            <span>\n
+        \                               Alex</span>\n                        </div>\n
+        \                   </div>\n\n                </div>\n\n            </div>\n
+        \           <div class=\"ps-reviews--review-content mt-1\">\n                They
+        increase my monthly rate for 38%!!! And basically they can do that every month!
+        What the hell is that? I never ever seen nothing like that before.!\n            </div>\n
+        \       </div>\n    \n        <div class=\"ps-reviews--review-item\">\n            <div
+        class=\"d-flex justify-content-between align-items-center ps-reviews--review-item-header\">\n
+        \               <div class=\"d-flex flex-column \">\n                    <div
+        class=\"ps-reviews--review-rating-wrap\">\n                        <div class=\"d-flex
+        justify-content-between\">\n                            \n                            <span
+        class=\"star-rating-wrap\">\n    \n        \n            <i class=\"ps-star\"></i>\n
+        \       \n    \n        \n            <i class=\"ps-star\"></i>\n        \n
+        \   \n        \n            <i class=\"ps-star\"></i>\n        \n    \n        \n
+        \           <i class=\"ps-star\"></i>\n        \n    \n        \n            <i
+        class=\"ps-star\"></i>\n        \n    \n</span>\n                            <div
+        class=\"ps-reviews--review-date\">\n                                November
         22, 2024\n                            </div>\n                        </div>\n\n
         \                       <div class=\"ps-reviews--review-user-details \">\n
         \                           <span>\n                                Google</span>\n
@@ -6188,7 +6208,7 @@ http_interactions:
         in today super easy! Well kept property.\n            </div>\n        </div>\n
         \   \n</div>\n<button aria-label=\"Show all\nReviews\"\nclass=\"show-all-reviews
         btn ps-base-link ps-base-link-underlined px-0 d-none\nps-base-link-chevron\">\nShow
-        all(\n498)\nReviews</button>\n</div>\n\n</div>\n</div>\n</div>\n\n    \n    <div
+        all(\n499)\nReviews</button>\n</div>\n\n</div>\n</div>\n</div>\n\n    \n    <div
         class=\"content-asset\"><!-- dwMarker=\"content\" dwContentID=\"7fda484059b5edd9f4156d185a\"
         -->\n        <div class=\"modal fade\" id=\"textConsentModal\" tabindex=\"-1\"
         role=\"dialog\"  aria-hidden=\"true\">\r\n<div class=\"modal-dialog modal-dialog-centered\"
@@ -6523,10 +6543,10 @@ http_interactions:
         type='text/javascript' src='https://publicstorage.my.site.com/ESWWebInAppMessagingf1681794698967/assets/js/bootstrap.min.js'
         onload='initEmbeddedMessaging()'></script>\n\n</footer>\n</div>\n<div class=\"error-messaging\"></div>\n<div
         class=\"modal-background\"></div>\n\n<!--[if lt IE 10]>\n<script>//common/scripts.isml</script>\n<script
-        defer type=\"text/javascript\" src=\"/on/demandware.static/Sites-publicstorage-Site/-/default/v1732626845371/js/main.js\"></script>\n\n
-        \   <script defer type=\"text/javascript\" src=\"/on/demandware.static/Sites-publicstorage-Site/-/default/v1732626845371/js/map.js\"\n
+        defer type=\"text/javascript\" src=\"/on/demandware.static/Sites-publicstorage-Site/-/default/v1732729206449/js/main.js\"></script>\n\n
+        \   <script defer type=\"text/javascript\" src=\"/on/demandware.static/Sites-publicstorage-Site/-/default/v1732729206449/js/map.js\"\n
         \       \n        >\n    </script>\n\n    <script defer type=\"text/javascript\"
-        src=\"/on/demandware.static/Sites-publicstorage-Site/-/default/v1732626845371/js/propertyDetails.js\"\n
+        src=\"/on/demandware.static/Sites-publicstorage-Site/-/default/v1732729206449/js/propertyDetails.js\"\n
         \       \n        >\n    </script>\n\n<![endif]-->\n\n\n\n\n<input type=\"hidden\"
         aria-hidden=\"true\" class=\"custom-invalid-email\" value=\"Please enter a
         valid email address.\" />\n<input type=\"hidden\" aria-hidden=\"true\" class=\"gtmPageAction\"
@@ -6597,7 +6617,7 @@ http_interactions:
         class=\"hdnSearchCookie\" value=\"\" />\n<input type=\"hidden\" aria-hidden=\"true\"
         class=\"hdnSiteClickCookie\" value=\"\" />\n<input type=\"hidden\" aria-hidden=\"true\"
         class=\"hdnSiteVisitCookie\" value=\"\" />\n<input type=\"hidden\" aria-hidden=\"true\"
-        class=\"hdnPsapCookie\" value=\"\" />\n\n<script src=\"/on/demandware.static/Sites-publicstorage-Site/-/default/v1732626845371/js/gtm/googleTagManager.js\"
+        class=\"hdnPsapCookie\" value=\"\" />\n\n<script src=\"/on/demandware.static/Sites-publicstorage-Site/-/default/v1732729206449/js/gtm/googleTagManager.js\"
         defer ></script>\n<!-- Demandware Analytics code 1.0 (body_end-analytics-tracking-asynch.js)
         -->\n<script type=\"text/javascript\">//<!--\n/* <![CDATA[ */\nfunction trackPage()
         {\n    try{\n        var trackingUrl = \"https://www.publicstorage.com/on/demandware.store/Sites-publicstorage-Site/default/__Analytics-Start\";\n
@@ -6605,9 +6625,9 @@ http_interactions:
         (typeof dw.ac == \"undefined\") {\n            dwAnalytics.trackPageView();\n
         \       } else {\n            dw.ac.setDWAnalytics(dwAnalytics);\n        }\n
         \   }catch(err) {};\n}\n/* ]]> */\n// -->\n</script>\n<script type=\"text/javascript\"
-        src=\"/on/demandware.static/Sites-publicstorage-Site/-/default/v1732626845371/internal/jscript/dwanalytics-22.2.js\"
+        src=\"/on/demandware.static/Sites-publicstorage-Site/-/default/v1732729206449/internal/jscript/dwanalytics-22.2.js\"
         async=\"async\" onload=\"trackPage()\"></script>\n<!-- Demandware Active Data
-        (body_end-active_data.js) -->\n<script src=\"/on/demandware.static/Sites-publicstorage-Site/-/default/v1732626845371/internal/jscript/dwac-21.7.js\"
+        (body_end-active_data.js) -->\n<script src=\"/on/demandware.static/Sites-publicstorage-Site/-/default/v1732729206449/internal/jscript/dwac-21.7.js\"
         type=\"text/javascript\" async=\"async\"></script></body>\n</html>\n\n<input
         type=\"hidden\" name=\"AffiliatePhoneNumber\" value=\"800-688-8057\" id=\"affiliatePhoneNumber\"
         />\n<input type=\"hidden\" name=\"IsPaidGoogleSearch\" value=\"false\" id=\"isPaidGoogleSearch\"
@@ -6615,5 +6635,5 @@ http_interactions:
         />\n\n    <input type=\"hidden\" name=\"callAjax\" value=\"true\" id=\"callAjax\"
         />\n    <input type=\"hidden\" name=\"manageCookiesUrl\" value=\"/on/demandware.store/Sites-publicstorage-Site/default/Account-ManageCookies\"
         id=\"manageCookiesUrl\" />\n\n\n"
-  recorded_at: Wed, 27 Nov 2024 00:36:13 GMT
+  recorded_at: Wed, 27 Nov 2024 21:48:47 GMT
 recorded_with: VCR 6.3.1

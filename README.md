@@ -12,6 +12,17 @@
 gem install publicstorage
 ```
 
+## Configuration
+
+```ruby
+require 'publicstorage'
+
+PublicStorage.configure do |config|
+  config.user_agent = '../..' # ENV['PUBLICSTORAGE_USER_AGENT']
+  config.timeout = 30 # ENV['PUBLICSTORAGE_TIMEOUT']
+end
+```
+
 ## Usage
 
 ```ruby
