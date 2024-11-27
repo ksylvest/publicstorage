@@ -12,7 +12,7 @@ module PublicStorage
     attr_accessor :timeout
 
     def initialize
-      @user_agent = ENV.fetch('PUBLIC_STORAGE_USER_AGENT', "publicstorage.rb/#{VERSION}")
+      @user_agent = ENV.fetch('PUBLICSTORAGE_USER_AGENT', "publicstorage.rb/#{VERSION}")
       @timeout = Integer(ENV.fetch('PUBLICSTORAGE_TIMEOUT', 60))
     end
   end
