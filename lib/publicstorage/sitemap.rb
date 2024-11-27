@@ -1,7 +1,9 @@
 # frozen_string_literal: true
 
 module PublicStorage
-  # A sitemap.
+  # A sitemap on publicstorage.com.
+  #
+  # e.g. https://www.publicstorage.com/sitemap_0-product.xml
   class Sitemap
     # @attribute [rw] links
     #   @return [Array<Link>]

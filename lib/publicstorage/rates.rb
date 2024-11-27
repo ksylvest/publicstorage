@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module PublicStorage
-  # The rates associated with a price
+  # The rates (street + web) for a facility
   class Rates
     STREET_SELECTOR = '.unit-prices .unit-pricing .unit-strike-through-price'
     WEB_SELECTOR = '.unit-prices .unit-pricing .unit-price'
@@ -28,6 +28,11 @@ module PublicStorage
         "web=#{@web.inspect}"
       ]
       "#<#{self.class.name} #{props.join(' ')}>"
+    end
+
+    # @return [String] e.g. "$80 (street) | $60 (web)"
+    def text
+      "$#{@street} (street) | $#{@web} (web)"
     end
 
     # @param element [Nokogiri::XML::Element]

@@ -6,6 +6,7 @@ require 'zeitwerk'
 
 loader = Zeitwerk::Loader.for_gem
 loader.inflector.inflect 'publicstorage' => 'PublicStorage'
+loader.inflector.inflect 'cli' => 'CLI'
 loader.setup
 
 module PublicStorage
