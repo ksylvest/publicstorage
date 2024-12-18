@@ -5,15 +5,6 @@ module PublicStorage
   class Crawler
     HOST = 'https://www.publicstorage.com'
 
-    # Raised for unexpected HTTP responses.
-    class FetchError < StandardError
-      # @param url [String]
-      # @param response [HTTP::Response]
-      def initialize(url:, response:)
-        super("url=#{url} status=#{response.status.inspect} body=#{response.body.inspect}")
-      end
-    end
-
     # @param url [String]
     # @raise [FetchError]
     # @return [Nokogiri::HTML::Document]

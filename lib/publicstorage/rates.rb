@@ -3,9 +3,6 @@
 module PublicStorage
   # The rates (street + web) for a facility
   class Rates
-    STREET_SELECTOR = '.unit-prices .unit-pricing .unit-strike-through-price'
-    WEB_SELECTOR = '.unit-prices .unit-pricing .unit-price'
-
     # @attribute [rw] street
     #   @return [Integer]
     attr_accessor :street
@@ -35,12 +32,12 @@ module PublicStorage
       "$#{@street} (street) | $#{@web} (web)"
     end
 
-    # @param element [Nokogiri::XML::Element]
+    # @param data [Hash]
     #
     # @return [Rates]
-    def self.parse(element:)
-      street = Integer(element.at(STREET_SELECTOR).text.match(/(?<value>\d+)/)[:value])
-      web = Integer(element.at(WEB_SELECTOR).text.match(/(?<value>\d+)/)[:value])
+    def self.parse(data:)
+      street = data['listprice']
+      web = data['saleprice']
       new(street:, web:)
     end
   end

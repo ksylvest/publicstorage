@@ -14,9 +14,9 @@ RSpec.describe PublicStorage::CLI do
 
     context 'with a crawl command' do
       it 'proxies PublicStorage::Facility.crawl' do
-        allow(PublicStorage::Facility).to receive(:crawl)
+        allow(PublicStorage::Crawl).to receive(:run)
         expect { cli.parse(%w[crawl]) }.to raise_error(SystemExit)
-        expect(PublicStorage::Facility).to have_received(:crawl)
+        expect(PublicStorage::Crawl).to have_received(:run)
       end
     end
 
