@@ -1,10 +1,12 @@
-# PublicStorage
+# Public Storage
 
 [![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/ksylvest/publicstorage/blob/main/LICENSE)
 [![RubyGems](https://img.shields.io/gem/v/publicstorage)](https://rubygems.org/gems/publicstorage)
 [![GitHub](https://img.shields.io/badge/github-repo-blue.svg)](https://github.com/ksylvest/publicstorage)
 [![Yard](https://img.shields.io/badge/docs-site-blue.svg)](https://publicstorage.ksylvest.com)
 [![CircleCI](https://img.shields.io/circleci/build/github/ksylvest/publicstorage)](https://circleci.com/gh/ksylvest/publicstorage)
+
+A Ruby library offering both a CLI and API for scraping [Public Storage](https://www.publicstorage.com/) self-storage facilities and prices.
 
 ## Installation
 
@@ -47,4 +49,8 @@ end
 
 ```bash
 publicstorage crawl
+```
+
+```bash
+publicstorage crawl "https://www.publicstorage.com/self-storage-ca-venice/120.html"
 ```

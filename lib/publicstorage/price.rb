@@ -3,6 +3,8 @@
 module PublicStorage
   # The price (id + dimensions + rate) for a facility
   class Price
+    GTM_SELECTOR = 'button[data-gtmdata]'
+
     # @attribute [rw] id
     #   @return [String]
     attr_accessor :id
@@ -43,8 +45,10 @@ module PublicStorage
     #
     # @return [Price]
     def self.parse(element:)
-      rates = Rates.parse(element:)
-      dimensions = Dimensions.parse(element:)
+      data = JSON.parse(element.at(GTM_SELECTOR).attribute('data-gtmdata'))
+
+      rates = Rates.parse(data:)
+      dimensions = Dimensions.parse(data:)
 
       new(
         id: element.attr('data-unitid'),

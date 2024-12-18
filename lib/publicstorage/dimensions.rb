@@ -41,11 +41,11 @@ module PublicStorage
       "#{format('%g', @width)}' × #{format('%g', @depth)}' (#{@sqft} sqft)"
     end
 
-    # @param element [Nokogiri::XML::Element]
+    # @param data [Hash]
     #
     # @return [Dimensions]
-    def self.parse(element:)
-      match = element.at(SELECTOR).text.match(/(?<depth>[\d\.]+)'x(?<width>[\d\.]+)'/)
+    def self.parse(data:)
+      match = data['dimension'].match(/(?<depth>[\d\.]+)'x(?<width>[\d\.]+)'/)
       depth = Float(match[:depth])
       width = Float(match[:width])
       sqft = Integer(depth * width)
