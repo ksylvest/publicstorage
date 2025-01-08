@@ -8,6 +8,7 @@ module PublicStorage
     DEFAULT_PHONE = '1-800-742-8048'
     DEFAULT_EMAIL = 'customerservice@publicstorage.com'
 
+    NAME_SELECTOR = '.plp-page-header'
     PRICE_SELECTOR = '.units-results-section .unit-list-group .unit-list-item'
     LD_SELECTOR = 'script[type="application/ld+json"]'
 
@@ -62,15 +63,34 @@ module PublicStorage
     #
     # @return [Facility]
     def self.parse(url:, document:)
-      data = parse_ld(document:)
-      id = Integer(data['url'].match(ID_REGEX)[:id])
-      name = data['name']
+      data = parse_ld(document: document)
+      id = parse_id(data: data)
+      name = parse_name(document: document)
       address = Address.parse(data: data['address'])
       geocode = Geocode.parse(data: data['geo'])
-
-      prices = document.css(PRICE_SELECTOR).map { |element| Price.parse(element:) }
+      prices = parse_prices(document: document)
 
       new(id:, url:, name:, address:, geocode:, prices:)
+    end
+
+    # @param data [Hash]
+    #
+    # @return [Integer]
+    def self.parse_id(data:)
+      Integer(data['url'].match(ID_REGEX)[:id])
+    end
+
+    # @param document [NokoGiri::XML::Document]
+    #
+    # @return [String]
+    def self.parse_name(document:)
+      document.at_css(NAME_SELECTOR).text.gsub(/\s+/, ' ').strip
+    end
+
+    # @param docunent [NokoGiri::XML::Document]
+    # @return Array<Price>
+    def self.parse_prices(document:)
+      document.css(PRICE_SELECTOR).map { |element| Price.parse(element:) }
     end
 
     # @param document [NokoGiri::XML::Document]
