@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    publicstorage (1.0.0)
+    publicstorage (1.1.0)
       http
       json
       nokogiri
