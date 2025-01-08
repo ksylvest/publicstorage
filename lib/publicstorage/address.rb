@@ -51,11 +51,21 @@ module PublicStorage
     # @return [Address]
     def self.parse(data:)
       new(
-        street: data['streetAddress'],
+        street: stripe_leading_or_trailing_null(data['streetAddress']),
         city: data['addressLocality'],
         state: data['addressRegion'],
         zip: data['postalCode']
       )
+    end
+
+    # NOTE: this fixes a bug w/ publicstorage that currently exists where addresses have a leading / trailing null.
+    #
+    # @param value [String]
+    #
+    # @return [String]
+    def self.stripe_leading_or_trailing_null(value)
+      match = value.match(/\A(?:null)?(?<text>.*?)(?:null)?\z/)
+      match[:text]
     end
   end
 end
