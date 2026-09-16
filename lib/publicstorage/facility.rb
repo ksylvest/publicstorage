@@ -97,7 +97,17 @@ module PublicStorage
     #
     # @return [Hash]
     def self.parse_ld(document:)
-      JSON.parse(document.at_css(LD_SELECTOR).text).find { |entry| entry['@type'] == 'SelfStorage' }
+      ld_entries = []
+
+      document.css(LD_SELECTOR).each do |element|
+        data = JSON.parse(element.text)
+        case data
+        when Hash then ld_entries << data
+        when Array then ld_entries += data
+        end
+      end
+
+      ld_entries.find { |entry| entry['@type'] == 'SelfStorage' }
     end
 
     def self.crawl
